@@ -23,7 +23,7 @@ import OurServicesFour from './components/OurServicesFour';
 function App() {
   return (
     <>
-      < HashRouter>
+      < HashRouter basename='fluencer-digital'>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
