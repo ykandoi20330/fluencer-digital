@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fluencer-digital/static/css/main.32f15ebe.css",
-    "main.js": "/fluencer-digital/static/js/main.544cc708.js",
+    "main.js": "/fluencer-digital/static/js/main.b0d97125.js",
     "static/js/787.a9136a80.chunk.js": "/fluencer-digital/static/js/787.a9136a80.chunk.js",
     "static/media/Software Development.jpg": "/fluencer-digital/static/media/Software Development.0ac841e41e3c641f022a.jpg",
     "static/media/BGVideo.mp4": "/fluencer-digital/static/media/BGVideo.a45af1f474d63cacca63.mp4",
@@ -44,11 +44,11 @@
     "static/media/image (4).png": "/fluencer-digital/static/media/image (4).cdf4aef9f5ecc2dc9643.png",
     "index.html": "/fluencer-digital/index.html",
     "main.32f15ebe.css.map": "/fluencer-digital/static/css/main.32f15ebe.css.map",
-    "main.544cc708.js.map": "/fluencer-digital/static/js/main.544cc708.js.map",
+    "main.b0d97125.js.map": "/fluencer-digital/static/js/main.b0d97125.js.map",
     "787.a9136a80.chunk.js.map": "/fluencer-digital/static/js/787.a9136a80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32f15ebe.css",
-    "static/js/main.544cc708.js"
+    "static/js/main.b0d97125.js"
   ]
 }
