@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import BGvideo from './BGVideo.mp4'
 // import Logo from './Logo.png'
 import Arrow from './icons8-down-arrow-100.png'
@@ -42,7 +42,7 @@ const Home = () => {
                     <Link to="/mainContact">Let's Build</Link>
                 </div>
                 <div>
-                    <a href='#'><img className='arrow' src={Arrow} style={{ width: '60px', position: 'relative', bottom: '-300px' }} alt="" /></a>
+                    <a href="#"><img className='arrow' src={Arrow} style={{ width: '60px', position: 'relative', bottom: '-300px' }} alt="" /></a>
                 </div>
             </div>
         </>

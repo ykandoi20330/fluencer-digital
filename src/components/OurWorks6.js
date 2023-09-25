@@ -31,7 +31,7 @@ const OurWorks6 = () => {
                             devices, including mobile phones, tablets, and
                             desktops! </p>
                         <br />
-                        <Link className='workbtn' to="/">Visit Site</Link>
+                        <Link className='workbtn' to="https://jitjaipur.onrender.com/">Visit Site</Link>
                     </div>
                 </div>
                 <div>

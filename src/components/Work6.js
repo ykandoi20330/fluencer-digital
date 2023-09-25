@@ -21,7 +21,7 @@ const Work6 = () => {
                     accessed on smartphones and tablets. This is important,
                     as more and more people are using their mobile devices! </p>
                 <br />
-                <Link className='workbtn' to="/">Visit Site</Link>
+                <Link className='workbtn' to="https://jitjaipur.onrender.com/">Visit Site</Link>
             </div>
         </div>
     )

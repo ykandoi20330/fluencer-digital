@@ -22,7 +22,7 @@ const Work0 = () => {
           React was used for frontend with Vite to speed up deployment,Typescript was used to ensure bug free production,
           point buckets were used to store data, css animations were also incorporated!. </p>
         <br />
-        <Link className='workbtn' to="/">Visit Site</Link>
+        <Link className='workbtn' to="https://garol.in/">Visit Site</Link>
       </div>
     </div>
   )

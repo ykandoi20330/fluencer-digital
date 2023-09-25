@@ -51,7 +51,7 @@ const OurWorks = () => {
               Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
               Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
             <br />
-            <Link className='workbtn' to="/">Visit Site</Link>
+            <Link className='workbtn' to="https://garol.in/">Visit Site</Link>
           </div>
         </div>
       </div>
