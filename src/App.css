@@ -1058,7 +1058,7 @@ label {
 .web {
   border: none !important;
   width: 100% !important;
-  height: 30vh !important;
+  height: 35vh !important;
   cursor: pointer;
   position: relative;
   background: #0c0c0c;
@@ -1070,7 +1070,7 @@ label {
   padding: 20px !important;
   margin-left: 77px !important;
   width: 20% !important;
-  margin-top: 7px !important;
+  margin-top: -10px !important;
   position: absolute;
   z-index: 1;
   border: none;
