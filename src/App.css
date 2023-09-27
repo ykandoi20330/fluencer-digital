@@ -562,7 +562,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 }
 .Showbtn1:focus:not(:focus-visible) {
   outline: 0;
-  width: 15rem;
+  width: 14rem;
   transition: all 1s ease;
 }
 
@@ -1146,7 +1146,7 @@ label {
 .nav-item:hover .dropdown-item {
   display: block;
   border-radius: 50px;
-  padding: 3px;
+  padding: 5px 0;
 }
 
 .dropdown-item {
@@ -1154,6 +1154,7 @@ label {
   padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
   clear: both;
   font-weight: 400;
+  width: 110%;
   /* color: #ffffff; */
   text-align: inherit;
   text-decoration: none;
@@ -1170,6 +1171,7 @@ label {
   color: var(--bs-dropdown-link-hover-color);
   background-color: #ED1C24;
   transition: all 1s ease-in-out;
+  padding: 5px 7px !important;
 }
 
 
@@ -1774,7 +1776,7 @@ button:focus:not(:focus-visible) {
   .web1 {
     border: none !important;
     width: 100% !important;
-    height: 47vh !important;
+    height: 50vh !important;
     cursor: pointer;
     position: relative;
     background: #0c0c0c;

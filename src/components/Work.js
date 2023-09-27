@@ -57,8 +57,8 @@ const Work = () => {
           </div>
         </div>
         <div>
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/'   onClick={() => setShowtab(showtab - 1)} >&#xe5c4;</Link></i> 
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/'  onClick={() => setShowtab(showtab + 1)}  >&#xe5c8;</Link></i> {/* onClick={() => setShowtab()} */}
+          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab( showtab - 1 || 7 )}>&#xe5c4;</Link></i>  {/*  */}
+          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab( showtab + 1 || 1 )}>&#xe5c8;</Link></i> {/* */}
         </div>
       </div>
       <div className="first">

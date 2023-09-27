@@ -3,7 +3,7 @@ import quotePng from './quotes-3.png'
 import image from '../components/Testimonial/Background-removebg-preview.png'
 import image3 from '../components/Testimonial/Image 3.jpg'
 
-const Testimonials2 = () => { {/*{item} */}
+const Testimonials2 = () => {
     return (
         <div class="Testimonials card">  {/* key={item.id} */}
             <img className='quote' src={quotePng} alt="" />
