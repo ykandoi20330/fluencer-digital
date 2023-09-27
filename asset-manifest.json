@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fluencer-digital/static/css/main.b250718f.css",
-    "main.js": "/fluencer-digital/static/js/main.fa8310f9.js",
+    "main.css": "/fluencer-digital/static/css/main.b528167c.css",
+    "main.js": "/fluencer-digital/static/js/main.ba2e5e02.js",
     "static/js/787.a9136a80.chunk.js": "/fluencer-digital/static/js/787.a9136a80.chunk.js",
     "static/media/Software Development.jpg": "/fluencer-digital/static/media/Software Development.0ac841e41e3c641f022a.jpg",
     "static/media/BGVideo.mp4": "/fluencer-digital/static/media/BGVideo.a45af1f474d63cacca63.mp4",
@@ -43,12 +43,12 @@
     "static/media/Sandesh Foundation.png": "/fluencer-digital/static/media/Sandesh Foundation.facbc1a4f240eb123115.png",
     "static/media/image (4).png": "/fluencer-digital/static/media/image (4).cdf4aef9f5ecc2dc9643.png",
     "index.html": "/fluencer-digital/index.html",
-    "main.b250718f.css.map": "/fluencer-digital/static/css/main.b250718f.css.map",
-    "main.fa8310f9.js.map": "/fluencer-digital/static/js/main.fa8310f9.js.map",
+    "main.b528167c.css.map": "/fluencer-digital/static/css/main.b528167c.css.map",
+    "main.ba2e5e02.js.map": "/fluencer-digital/static/js/main.ba2e5e02.js.map",
     "787.a9136a80.chunk.js.map": "/fluencer-digital/static/js/787.a9136a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b250718f.css",
-    "static/js/main.fa8310f9.js"
+    "static/css/main.b528167c.css",
+    "static/js/main.ba2e5e02.js"
   ]
 }
