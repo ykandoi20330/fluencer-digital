@@ -44,15 +44,15 @@ const Services = () => {
           <img src={mobile} className="card-img" alt="..." />
           <div className="card-overlay">
             <Link to="/Services3"><h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Mobile App</h4>
-              <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Developement</h4>
-              <p className="card-text detail-hover" style={{ color: 'grey' }}>This is a wider card with supporting text belowas a natural lead-in.</p>
+              <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem'}}>Developement</h4>
+              <p className="card-text detail-hover" style={{ color: 'grey'}}>This is a wider card with supporting text belowas a natural lead-in.</p>
             </Link>
           </div>
         </div>
-        <div className=" card text-bg-dark mx-3" data-aos="slide-up" >  {/*  {`${'hid2 card text-bg-dark mx-3'} ${myElementIsVisible? 'show': 'hid2'}`}  ref={myRef}*/}
+        <div className="card text-bg-dark mx-3" data-aos="slide-up" >  {/* {`${'hid2 card text-bg-dark mx-3'} ${myElementIsVisible? 'show': 'hid2'}`}  ref={myRef}*/}
           <img src={soft} className="card-img" alt="..." />
           <div className="card-overlay">
-            <Link to="/Services2"> <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Software</h4>
+            <Link to="/Services2"> <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem'}}>Software</h4>
               <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Developement</h4>
               <p className="card-text detail-hover" style={{ color: 'grey' }}>This is a wider card with supporting text below as a natural lead-in.</p>
             </Link>
@@ -63,7 +63,7 @@ const Services = () => {
           <div className="card-overlay">
             <Link to="/Services4"><h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Artificial</h4>
               <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Intelligence</h4>
-              <p className="card-text detail-hover" style={{ color: 'grey' }}>This is a wider card with supporting text below as a natural lead-in.</p>
+              <p className="card-text detail-hover" style={{ color: 'grey'}}>This is a wider card with supporting text below as a natural lead-in.</p>
             </Link>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Services = () => {
           <div className="card-overlay">
             <Link to="/ourServices"><h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Website</h4>
               <h4 className="card-title detail-hover" style={{ fontWeight: '600', fontSize: '2.6rem' }}>Developement</h4>
-              <p className="card-text detail-hover" style={{ color: 'grey' }}>This is a wider card with supporting text below as a natural lead-in.</p>
+              <p className="card-text detail-hover" style={{ color: 'grey'}}>This is a wider card with supporting text below as a natural lead-in.</p>
             </Link>
           </div>
         </div>

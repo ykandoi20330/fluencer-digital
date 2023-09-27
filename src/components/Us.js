@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import back from '../components/MaskGroup.png'
+import { NavLink } from "react-router-dom"
 
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
@@ -70,12 +71,12 @@ const Us = () => {
           <div>
             <h3 className='h3title' style={{ color: 'white', fontSize: '2.75rem' }}>Techonologies We Work<span style={{ color: 'orangered' }}>.</span></h3>
           </div>
-          <div className="smallNav">
-            <ul>
-              <li><a className='' onClick={() => setShowtab("tab1")}>Frontend</a></li> 
-              <li><a className='' onClick={() => setShowtab("tab2")}>Backend</a></li> 
-              <li><a className='' onClick={() => setShowtab("tab3")}>Database</a></li>
-              <li><a className='' onClick={() => setShowtab("tab4")}>Mobile</a></li>
+          <div className="smallNav" >
+            <ul className='nav nav-underline'>
+              <li className='nav-item'><NavLink className='nav-link1' onClick={() => setShowtab("tab1")}>Frontend</NavLink></li> 
+              <li className='nav-item'><NavLink className='nav-link1' onClick={() => setShowtab("tab2")}>Backend</NavLink></li> 
+              <li className='nav-item'><NavLink className='nav-link1' onClick={() => setShowtab("tab3")}>Database</NavLink></li>
+              <li className='nav-item'><NavLink className='nav-link1' onClick={() => setShowtab("tab4")}>Mobile</NavLink></li>
             </ul>
           </div>
           <div className='tabs'>

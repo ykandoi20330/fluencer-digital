@@ -234,7 +234,7 @@ nav {
   width: 50%;
   height: 50vh;
   cursor: pointer;
-  position: relative;
+  /* position: relative; */
 }
 
 .card-overlay {
@@ -544,7 +544,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 
 
 .Showbtn {
-  background: #0a0a0a;
+  background: transparent;
   border: none;
   border-radius: 50px;
 }
@@ -556,7 +556,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 }
 
 .Showbtn1 {
-  background: #0a0a0a;
+  background: transparent;
   border: none;
   border-radius: 50px;
 }
@@ -611,22 +611,25 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
   cursor: pointer;
 }
 
-.smallNav ul li a {
+.smallNav ul li a{
   text-decoration: none;
-  border: none !important;
+  border: none;
+  border-radius: 0px !important;
   cursor: pointer;
 }
 
-.smallNav ul li a:hover {
-  color: #ED1C24 !important;
+.nav-underline .nav-link1.active, .nav-underline .show>.nav-link1 {
+  font-weight: 500;
+  color: #fff;
+  padding: 15px;
+ border-bottom: 3px solid transparent;
 }
 
-.smallNav ul li{
-  border-bottom: 3px solid transparent;
-}
-.smallNav ul li:hover{
-  border-bottom: 3px solid #ED1C24;
-  transition: all .2s ease-in-out;
+.nav-link1:focus, .nav-link1:hover {
+  color: #ED1C24 !important;
+  border-bottom: 3px solid #ED1C24 !important;
+  border-radius: 0px !important;
+  transition: all .5s ease-in-out;
 }
 
 .technology {
@@ -669,7 +672,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 
 .Testimonials {
   border: none !important;
-  width: 22% !important;
+  width: 22vw !important;
   height: 57vh !important;
   cursor: pointer;
   position: relative;
@@ -677,6 +680,23 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
   align-items: center;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 25vw;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  /* display: none; */
+  float: left;
+  width: 25vw;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
 }
 
 .inner{
@@ -1017,7 +1037,7 @@ label {
 }
 
 .img-back img {
-  height: 40vh;
+  height: 55vh;
   width: 100vw;
   filter: brightness(0.4);
   position: sticky;
@@ -1030,8 +1050,8 @@ label {
   text-align: center;
   position: relative;
   margin-top: -123px;
-  margin-top: -180px;
-  margin-bottom: 170px;
+  margin-top: -265px;
+  margin-bottom: 280px;
   font-size: 3rem;
 }
 
@@ -1123,7 +1143,11 @@ label {
   position: relative;
 }
 
-.nav-item:hover .dropdown-item {display: block;}
+.nav-item:hover .dropdown-item {
+  display: block;
+  border-radius: 50px;
+  padding: 3px;
+}
 
 .dropdown-item {
   display: none;
@@ -1140,6 +1164,12 @@ label {
   padding: 5px 0 5px 0;
   transform-origin: top center;
   animation: rotateX 500ms ease-in-out forwards;
+}
+
+.dropdown-item:hover {                /*.dropdown-item:focus*/
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: #ED1C24;
+  transition: all 1s ease-in-out;
 }
 
 
@@ -1169,6 +1199,10 @@ button:focus:not(:focus-visible) {
   text-decoration: none;
   outline: none !important;
   box-shadow: none !important;
+}
+
+.dropdown-menu-dark{
+  --bs-dropdown-link-active-bg: none;
 }
 
 
@@ -1308,6 +1342,10 @@ button:focus:not(:focus-visible) {
     margin: 20px 20px 0 240px;
   }
 
+  .btn2{
+    width: 55% !important;
+  }
+
   /*Us Section*/
   .box1 {
     display: flex;
@@ -1346,13 +1384,21 @@ button:focus:not(:focus-visible) {
 
   .Testimonials {
     border: none !important;
-    width: 36% !important;
+    width: 27vw !important;
     height: 51vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
     border-radius: 20px;
+  }
+
+  .carousel-inner {
+    width: 29vw;
+  }
+  
+  .carousel-item {
+    width: 29vw;
   }
 
   /*Navbar section*/
@@ -1496,6 +1542,12 @@ button:focus:not(:focus-visible) {
     width: 19vw;
     font-size: 12px;
   } */
+
+  /*Our services Section*/
+  .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 22% !important;
+   }
 }
 
 @media screen and (max-width:1000px) {
@@ -1591,6 +1643,26 @@ button:focus:not(:focus-visible) {
 
   .workbtn {
     font-size: 11px !important;
+  }
+
+  /*Testimonails section*/
+  .Testimonials {
+    border: none !important;
+    width: 30vw !important;
+    height: 51vh !important;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .carousel-inner {
+    width: 32vw;
+  }
+  
+  .carousel-item {
+    width: 32vw;
   }
 
   /*Us Section*/
@@ -1714,6 +1786,11 @@ button:focus:not(:focus-visible) {
     margin-bottom: 0 !important;
     font-size: 14px !important;
   }
+
+  .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 26% !important;
+   }
 
 }
 
@@ -1882,7 +1959,7 @@ button:focus:not(:focus-visible) {
   /*Tesitimonials sections*/
   .Testimonials {
     border: none !important;
-    width: 36% !important;
+    width: 35vw !important;
     height: 46vh !important;
     cursor: pointer;
     position: relative;
@@ -1890,6 +1967,14 @@ button:focus:not(:focus-visible) {
     align-items: center;
     border-radius: 20px;
   }
+  
+    .carousel-inner {
+      width: 42vw;
+    }
+    
+    .carousel-item {
+      width: 37vw;
+    }
 
   .Testimonial-main {
     margin-top: 180px !important;
@@ -1939,6 +2024,11 @@ button:focus:not(:focus-visible) {
     font-size: 1.7rem !important;
     font-weight: 400 !important;
   }
+
+  .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 30% !important;
+   }
 
   /*OUr services*/
   .web1 {
@@ -2108,12 +2198,19 @@ button:focus:not(:focus-visible) {
   }
 
   .btn1 {
-    width: 60% !important;
+    width: 48% !important;
   }
 
   .btn2 {
     width: 45% !important;
   }
+
+  .Showbtn{
+    width: 15vw !important;
+  } 
+  .Showbtn1{
+    width: 15vw !important;
+  } 
 
   /*Us Section*/
 
@@ -2173,13 +2270,22 @@ button:focus:not(:focus-visible) {
 
   .Testimonials {
     border: none !important;
-    width: 42% !important;
+    width: 42vw !important;
     height: 45vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
     border-radius: 20px;
+  }
+
+  
+  .carousel-inner {
+    width: 44vw;
+  }
+  
+  .carousel-item {
+    width: 44vw;
   }
 
   /* Navbar Section*/
@@ -2216,6 +2322,11 @@ button:focus:not(:focus-visible) {
     font-size: 1.8rem !important;
     font-weight: 400 !important;
   }
+
+  .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 38% !important;
+   }
 }
 
 @media screen and (max-width:500px) {
@@ -2496,6 +2607,13 @@ button:focus:not(:focus-visible) {
     margin-bottom: -15px !important;
   }
 
+  .Showbtn{
+    width: 23vw !important;
+  } 
+  .Showbtn1{
+    width: 23vw !important;
+  }
+
   /*Us Section*/
   .box1 {
     display: flex;
@@ -2568,13 +2686,21 @@ button:focus:not(:focus-visible) {
 
   .Testimonials {
     border: none !important;
-    width: 63% !important;
+    width: 63vw !important;
     height: 43vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
     border-radius: 20px;
+  }
+   
+  .carousel-inner {
+    width: 65vw;
+  }
+  
+  .carousel-item {
+    width: 65vw;
   }
 
   .back-img3 {
@@ -2762,6 +2888,17 @@ button:focus:not(:focus-visible) {
   /* Our Services Parts*/
   .img-back img{
     height: 30vh !important;
+  }
+
+  .Back-img-Service h2{
+    margin-top: -200px !important;
+    margin-bottom: 170px !important;
+
+  }
+
+  /**/
+  .nav-item:hover .dropdown-item {
+    width: 120%;
   }
 
 }

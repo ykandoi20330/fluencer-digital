@@ -24,72 +24,16 @@ const Testimonials = () => {
         Aos.init({ duration: 500 });
     }, [])
 
-    //Testimonial Javascript
-    // const [activeIndex, setActiveIndex] = useState(0);
+    //change the data of Testimonails with Javascript
 
-    // const items = [
-    //     {
-    //         id: 1,
-    //         images: require("./Testimonial/Image 2.jpg"),
-    //         name: 'David James',
-    //         title: '(CEO-GT Solutions)',
-    //         quote: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer'
-    //     },
-    //     {
-    //         id: 2,
-    //         images: require("./Testimonial/Image 6.jpg"),
-    //         name: 'Susane Gate',
-    //         title: '(Project Manager - Solutions)',
-    //         quote: ' This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content.'
-    //     },
-    //     {
-    //         id: 3,
-    //         images: require("./Testimonial/Image 1.jpg"),
-    //         name: 'Lara Dane',
-    //         title: '(Manager-GT Solutions)',
-    //         quote: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer'
-    //     },
-    //     {
-    //         id: 4,
-    //         images: require("./Testimonial/Image 5.jpg"),
-    //         name: 'Morgan hunt',
-    //         title: '(CTO-GT Solutions)',
-    //         quote: 'This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. '
-    //     },
-    //     {
-    //         id: 5,
-    //         images: require("./Testimonial/Image 3.jpg"),
-    //         name: 'Peter samson',
-    //         title: '(Product manager-GT Solutions)',
-    //         quote: ' This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content.'
-    //     },
-    //     {
-    //         id: 6,
-    //         images: require("./Testimonial/Image 4.jpg"),
-    //         name: 'Henrry james',
-    //         title: '(Vice President- Solutions)',
-    //         quote: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer'
-    //     },
-    // ];
-
-    // const updateIndex = (newIndex) => {
-    //     if (newIndex < 0) {
-    //         newIndex = 0;
-    //     } else if (newIndex >= items.length) {
-    //         newIndex = items.length - 1;
-    //     }
-    //     setActiveIndex(newIndex);
-    // };
-
-    //JavaScript code for change the div Content
-  const [showtab, setShowtab] = useState("part1");
+    // const [showtab, setShowtab] = useState("part1");
 
     return (
         <>
             <div className='Testimonial-main cont'>
                 <div>
-                    <i className="material-icons mx-3"><a className='slide-arrow' onClick={() => setShowtab("part1")}>&#xe5c4;</a></i>  {/*onClick={() => { updateIndex(activeIndex - 1);}}  */}
-                    <i className="material-icons mx-3"><a className='slide-arrow' onClick={() => setShowtab("part2")}>&#xe5c8;</a></i> {/* onClick={() => { updateIndex(activeIndex + 1);}} */}
+                    <i className="material-icons mx-3"><a className='slide-arrow' data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next" >&#xe5c4;</a></i>   {/*  onClick={() => setShowtab("part1")}*/}
+                    <i className="material-icons mx-3"><a className='slide-arrow' data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev" >&#xe5c8;</a></i>   {/*onClick={() => setShowtab("part2")} */}
                 </div>
                 <div className="" data-aos="slide-left">  {/*{`${'hid'} ${myElementIsVisible? 'show': 'hid'}`} ref={myRef}*/}
                     <div>
@@ -124,15 +68,19 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div class="Testimonials card">
-                    <div className="inner" style={{ transform: `translate:(-${activeIndex*100})`}}>
-                    {items.map((item) => {
-                        return <Testimonials1 item={item} />
-                    })} 
+                {/* {showtab === "part1" && <Testimonials1 title="1"/>}
+                {showtab === "part2" &&  <Testimonials2 title="2"/>} */}
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <Testimonials1 />
+                        </div>
+                        <div class="carousel-item">
+                            <Testimonials2 />
+                        </div>
                     </div>
-                    </div>*/} 
-                    {showtab === "part1" && <Testimonials1 title="1" />}
-                    {showtab === "part2" &&  <Testimonials2 title="2" />}
+                </div>
+
                 <div className="part2">
                     <div className="" data-aos="slide-right"> {/* {`${'hid1'} ${myElementIsVisible? 'show': 'hid1'}`} ref={myRef} */}
                         <img className='back-img1' src={image5} alt="" />

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import BGvideo from './BGVideo.mp4'
 // import Logo from './Logo.png'
-import Arrow from './icons8-down-arrow-100.png'
+// import Arrow from './icons8-down-arrow-100.png'
 import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -41,9 +41,9 @@ const Home = () => {
                     <h4>FOR YOUR BUSINESS<span className='dot' style={{ color: 'orangered', fontSize: '50px' }}>.</span></h4>
                     <Link to="/mainContact">Let's Build</Link>
                 </div>
-                <div>
+                {/* <div>
                     <a href="#"><img className='arrow' src={Arrow} style={{ width: '60px', position: 'relative', bottom: '-300px' }} alt="" /></a>
-                </div>
+                </div> */}
             </div>
         </>
     )

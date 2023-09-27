@@ -3,9 +3,9 @@ import image1 from './Contact Us.jpg'
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import {
-    Link,
-} from "react-router-dom";
+// import {
+//     Link,
+// } from "react-router-dom";
 
 const Contact = () => {
 
@@ -16,7 +16,6 @@ const Contact = () => {
     useEffect(() => {
         Aos.init({ duration: 500 });
     }, [])
-
 
     return (
         <div className='mainContact cont'>
@@ -30,23 +29,23 @@ const Contact = () => {
                 </div>
                 <div className="SecondPart" data-aos="slide-up" style={{ marginLeft: '25px' }}>  {/*{`${'hid2 SecondPart'} ${myElementIsVisible? 'show': 'hid2'}`} ref={myRef} */}
                     <div>
-                        <h3 className='h3title' style={{ color: 'white', fontSize: '2.30rem', fontWeight: '400' }}>Get In Touch<span style={{ color: 'orangered', fontSize: '2.8rem' }}>.</span></h3>
+                        <h3 className='h3title' style={{ color: 'white', fontSize: '2.30rem', fontWeight: '400' }}>Get a Code<span style={{ color: 'orangered', fontSize: '2.8rem' }}>.</span></h3>
                     </div>
-                    <form className="row g-3">
+                    <form className="row g-3" action='https://formspree.io/f/mjvqpbgg' method='POST'>
                         <div class="form-floating mb-3 col-12">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="name" />
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name" name='Name'/>
                             <label for="floatingInput">Your Name</label>
                         </div>
                         <div class="form-floating col-md-6">
-                            <input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com" />
+                            <input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com" name='Email' required />
                             <label for="floatingPassword">Your Email Id</label>
                         </div>
                         <div class="form-floating col-md-6">
-                            <input type="number" class="form-control" id="floatingInput" placeholder="number" />
+                            <input type="number" class="form-control" id="floatingInput" placeholder="number" name='Number'/>
                             <label for="floatingInput">Mobile No.</label>
                         </div>
                         <div class="form-floating col-12">
-                            <input type="text" class="form-control" id="floatingPassword" placeholder="text" />
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="text" name='Message'/>
                             <label for="floatingPassword">Tell US A Little About Your Project...</label>
                         </div>
                         <div className="col-12">
@@ -79,7 +78,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-12">
-                            <Link to="/" className='button'>Let's work</Link>
+                          <input className='button' type="submit"  value="Let's work" style={{background:'transparent'}}/>
                         </div>
                     </form>
                 </div>

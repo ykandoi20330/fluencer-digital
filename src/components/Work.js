@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import bikeLogo from './Myple.png'
 import firstLogo from './Garol Advisory.png'
 import thirdLogo from './Sandesh Foundation.png'
-import fourthLogo from './Ababeel-removebg-preview.png'
+// import fourthLogo from './Ababeel-removebg-preview.png'
 import fiveLogo from './Kn-removebg-preview.png'
 import sixLogo from './3-removebg-preview.png'
-import sevenLogo from './Jaipur-removebg-preview.png'
+// import sevenLogo from './Jaipur-removebg-preview.png'
+import jitLOgo from "./jit logo.png"
+import abebeelLogo from "./ababeelLogo-removebg-preview.png"
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -39,7 +41,7 @@ const Work = () => {
   }, [])
 
   //JavaScript code for change the div Content
-  const [showtab, setShowtab] = useState("part1");
+  const [showtab, setShowtab] = useState(1);
 
   return (
     <>
@@ -55,50 +57,49 @@ const Work = () => {
           </div>
         </div>
         <div>
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab("part1")}>&#xe5c4;</Link></i>
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab("part2")}>&#xe5c8;</Link></i>
+          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/'   onClick={() => setShowtab(showtab - 1)} >&#xe5c4;</Link></i> 
+          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/'  onClick={() => setShowtab(showtab + 1)}  >&#xe5c8;</Link></i> {/* onClick={() => setShowtab()} */}
         </div>
       </div>
       <div className="first">
-        {showtab === "part1" && <Work0 title="1" />}
-        {showtab === "part2" && <Work1 title="2" />}
-        {showtab === "part3" && <Work2 title="3" />}
-
-        {showtab === "part4" && <Work3 title="4" />}
-        {showtab === "part5" && <Work4 title="5" />}
-        {showtab === "part6" && <Work5 title="6" />}
-        {showtab === "part7" && <Work6 title="7" />}
+        {showtab === 1 && <Work0 title="1" />}
+        {showtab === 2 && <Work1 title="2" />}
+        {showtab === 3 && <Work2 title="3" />}
+        {showtab === 4 && <Work3 title="4" />}
+        {showtab === 5 && <Work4 title="5" />}
+        {showtab === 6 && <Work5 title="6" />}
+        {showtab === 7 && <Work6 title="7" />}
       </div>
       <div className='logobtn'>
         <Swiper
           modules={[Navigation, A11y]}
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={7}
           //  navigation
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide>
-            <button className="Showbtn" onClick={() => setShowtab("part1")}><img className='btn1 back' style={{ width: '60%' }} src={firstLogo} alt="" /></button>
+            <button className="Showbtn" onClick={() => setShowtab(1)}><img className='btn1 back' style={{ width: '57%' }} src={firstLogo} alt="" /></button>
           </SwiperSlide>
           <SwiperSlide>
-            <button className="Showbtn" onClick={() => setShowtab("part2")}><img className='btn2 back' style={{ width: '60%' }} src={bikeLogo} alt="" /></button>
+            <button className="Showbtn" onClick={() => setShowtab(2)}><img className='btn2 back' style={{ width: '57%' }} src={bikeLogo} alt="" /></button>
           </SwiperSlide>
 
           <SwiperSlide>
-            <button className='Showbtn1' onClick={() => setShowtab("part3")}><img className='btn2 back1' style={{ width: '36%' }} src={fourthLogo} alt="" /></button>
+            <button className='Showbtn1' onClick={() => setShowtab(3)}><img className='btn2 back1' style={{ width: '36%' }} src={abebeelLogo} alt="" /></button> {/*fourthLogo */}
           </SwiperSlide>
           <SwiperSlide>
-            <button className='Showbtn' onClick={() => setShowtab("part4")}><img className='btn2 back' style={{ width: '60%' }} src={thirdLogo} alt="" /></button>
+            <button className='Showbtn' onClick={() => setShowtab(4)}><img className='btn2 back' style={{ width: '57%' }} src={thirdLogo} alt="" /></button>
           </SwiperSlide>
           <SwiperSlide>
-            <button className="Showbtn1" onClick={() => setShowtab("part5")}><img className='btn2 back1' style={{ width: '36%' }} src={fiveLogo} alt="" /></button>
+            <button className="Showbtn1" onClick={() => setShowtab(5)}><img className='btn2 back1' style={{ width: '36%' }} src={fiveLogo} alt="" /></button>
           </SwiperSlide>
           <SwiperSlide>
-            <button className='Showbtn1' onClick={() => setShowtab("part6")}><img className='btn2 back1' style={{ width: '36%' }} src={sixLogo} alt="" /></button>
+            <button className='Showbtn1' onClick={() => setShowtab(6)}> <img className='btn2 back1' style={{ width: '36%' }} src={sixLogo} alt="" /></button>
           </SwiperSlide>
           <SwiperSlide>
-            <button className='Showbtn1' onClick={() => setShowtab("part7")}><img className='btn2 back1' style={{ width: '36%' }} src={sevenLogo} alt="" /></button>
+            <button className='Showbtn1' onClick={() => setShowtab(7)}><img className='btn2 back1' style={{ width: '36%', padding: '10px' }} src={jitLOgo} alt="" /></button> {/*sevenLogo */}
           </SwiperSlide>
         </Swiper>
 
