@@ -43,6 +43,13 @@ const Work = () => {
   //JavaScript code for change the div Content
   const [showtab, setShowtab] = useState(1);
 
+  const increment = ()=> {
+    setShowtab(showtab + 1);
+    if(showtab === 7){
+      return setShowtab(1);
+    }
+  }
+
   return (
     <>
       <div className='works cont' style={{
@@ -58,7 +65,7 @@ const Work = () => {
         </div>
         <div>
           <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab( showtab - 1 || 7 )}>&#xe5c4;</Link></i>  {/*  */}
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab( showtab + 1 || 1 )}>&#xe5c8;</Link></i> {/* */}
+          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={increment}>&#xe5c8;</Link></i> {/* */}
         </div>
       </div>
       <div className="first">
