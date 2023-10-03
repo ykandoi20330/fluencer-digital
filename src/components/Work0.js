@@ -1,6 +1,6 @@
 import React from 'react'
 // import lady from './Garol Advisory.jpg'
-import main from './AI5I4727 copy.jpg'
+import main from './AI5I4727 update-min.jpg'
 import {
   Link,
 } from "react-router-dom";

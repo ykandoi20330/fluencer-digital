@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import Image2 from './Our Works/Keithston.jpg'
+import Image2 from './Our Works/Keithston-min.jpg'
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -32,7 +32,7 @@ const OurWorks5 = () => {
                 Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
                 Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
               <br />
-              <Link className='workbtn' to="/">Visit Site</Link>
+              <Link className='workbtn' to="/">Read More</Link>
             </div>
           </div>
         </div>

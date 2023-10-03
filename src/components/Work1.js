@@ -1,5 +1,5 @@
 import React from 'react'
-import Bike from "./Myple.jpg"
+import Bike from "./Myple update-min.jpg"
 import {
   Link,
 } from "react-router-dom";
@@ -10,8 +10,6 @@ const Work1 = () => {
       <div className='work' id='div2' data-aos="slide-right">{/*{`${'hid'} ${myElementIsVisible? 'show': 'hid'}`} ref={myRef}  */}
         <img className='work1-img SlideImage' style={{
           width: '100%',
-          height: '70vh',
-          // left: '-445px',
           position: 'relative'
         }} src={Bike} alt="" />
       </div>
@@ -24,7 +22,7 @@ const Work1 = () => {
           Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
           Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
         <br />
-        <Link className='workbtn' to="/">Visit Site</Link>
+        <Link className='workbtn' to="/">Read More</Link>
       </div>
 
     </div>

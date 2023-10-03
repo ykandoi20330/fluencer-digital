@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import Image from './Our Works/Garol Advisory.jpg'
+import Image from './Our Works/Garol Advisory-min.jpg'
 // import { useInView } from 'react-intersection-observer';
 import OurWorks2 from './OurWorks2'
 import OurWorks3 from './OurWorks3'

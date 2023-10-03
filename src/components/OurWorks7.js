@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Image2 from './Our Works/Ababeel1.png'
+import Image2 from './Our Works/Ababeel1-min.png'
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'

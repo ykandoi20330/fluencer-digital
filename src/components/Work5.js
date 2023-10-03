@@ -1,5 +1,5 @@
 import React from 'react'
-import Keith from "./Keithston main.jpg"
+import Keith from "./Keithston update-min.jpg"
 import {
     Link,
 } from "react-router-dom";
@@ -21,7 +21,7 @@ const Work5 = () => {
                     accessed on smartphones and tablets. This is important,
                     as more and more people are using their mobile devices! </p>
                 <br />
-                <Link className='workbtn' to="/">Visit Site</Link>
+                <Link className='workbtn' to="/">Read More</Link>
             </div>
         </div>
     )
