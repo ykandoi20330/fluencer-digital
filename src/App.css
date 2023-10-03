@@ -1633,9 +1633,9 @@ button:focus:not(:focus-visible) {
     font-size: 10px !important;
   }
 
-  .work1-img{
+  /* .work1-img{
     height: 45vh !important;
-  }
+  } */
 
   /* .SlideImage {
     width: 130% !important;
@@ -2179,9 +2179,9 @@ button:focus:not(:focus-visible) {
     font-size: 6px !important;
   }
 
-  .work1-img{
+  /* .work1-img{
     height: 30vh !important;
-  }
+  } */
 
   /* 
   .SlideImage {
