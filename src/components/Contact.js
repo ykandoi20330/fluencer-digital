@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
                 <div className="SecondPart" style={{ marginLeft: '25px' }}> {/* data-aos="slide-up"  {`${'hid2 SecondPart'} ${myElementIsVisible? 'show': 'hid2'}`} ref={myRef}  */}
                     <div>
-                        <h3 className='h3title' style={{ color: 'white', fontSize: '2.30rem', fontWeight: '400' }}>Get a Code<span style={{ color: 'orangered', fontSize: '2.8rem' }}>.</span></h3>
+                        <h3 className='h3title' style={{ color: 'white', fontSize: '2.30rem', fontWeight: '400' }}>Schedule a free consultation<span style={{ color: 'orangered', fontSize: '2.8rem' }}>.</span></h3>
                     </div>
                     <form className="row g-3" action='https://formspree.io/f/mjvqpbgg' method='POST'>
                         <div class="form-floating mb-3 col-12">

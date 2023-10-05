@@ -673,7 +673,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 .Testimonials {
   border: none !important;
   width: 22vw !important;
-  height: 57vh !important;
+  height: 62vh !important;
   cursor: pointer;
   position: relative;
   display: flex;
@@ -1389,7 +1389,7 @@ button:focus:not(:focus-visible) {
   .Testimonials {
     border: none !important;
     width: 27vw !important;
-    height: 51vh !important;
+    height: 55vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
@@ -1653,7 +1653,7 @@ button:focus:not(:focus-visible) {
   .Testimonials {
     border: none !important;
     width: 30vw !important;
-    height: 51vh !important;
+    height: 54vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
@@ -1964,7 +1964,7 @@ button:focus:not(:focus-visible) {
   .Testimonials {
     border: none !important;
     width: 35vw !important;
-    height: 46vh !important;
+    height: 50vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
@@ -2279,7 +2279,7 @@ button:focus:not(:focus-visible) {
   .Testimonials {
     border: none !important;
     width: 42vw !important;
-    height: 45vh !important;
+    height: 49vh !important;
     cursor: pointer;
     position: relative;
     display: flex;
@@ -2699,7 +2699,7 @@ button:focus:not(:focus-visible) {
   .Testimonials {
     border: none !important;
     width: 63vw !important;
-    height: 43vh !important;
+    height: 48vh !important;
     cursor: pointer;
     position: relative;
     display: flex;

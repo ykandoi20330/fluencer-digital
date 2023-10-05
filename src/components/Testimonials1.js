@@ -12,9 +12,11 @@ const Testimonials1 = () => {
                 <img className='overlay-imgMain' id="customer-img" src={image} alt="" />
             </div>
             <div className="Testi card-body">
-                <h5 class="Test-card-title" id="customer-name">David James</h5>  {/*{item.name} */}
-                <h5>(CEO-GT Solutions)</h5>  {/*{item.title} */}
-                <p class="card-text" id="customer-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>  {/*{item.quote} */}
+                <h5 class="Test-card-title" id="customer-name"><b>Anil Sharma</b></h5>  {/*{item.name} */}
+                <h5>(Director- Jaipur Institute of Technology)</h5>  {/*{item.title} */}
+                <p class="card-text" id="customer-text">Outstanding work! Fluencer exceeded our expectations with their website development. Efficient, user-friendly, and reliable.</p>  {/*{item.quote} */}
+                <br/>
+                <p class="card-text" id="customer-text">Highly recommend Fluencer Digital for their expertise and professionalism. Our project was a success thanks to their dedication.</p>
                 <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
             </div>
         </div>
