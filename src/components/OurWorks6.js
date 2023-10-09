@@ -19,7 +19,7 @@ const OurWorks6 = () => {
     return (
         <div className='container1'>
             <div className="detail4 detail" data-aos="slide-up">  {/*  {`${'hid2 detail'} ${myElementIsVisible ? 'show' : 'hid2'}`} ref={myRef}*/}
-                <div className='WrittenDetailwork4 writtenDetail'>
+                <div className='WrittenDetailwork4 writtenDetail1'>
                     <div className='work' id='arti'>
                         <h3 style={{ color: '#fff' }}>Jaipur Institute of Technology<span style={{ color: 'orangered' }}>.</span></h3>
                         <p className='detail-para' style={{ color: 'gray' }}> Our website for Jaipur Institute of Technology boasts a

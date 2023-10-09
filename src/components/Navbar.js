@@ -11,19 +11,33 @@ import {
 import sideBar from './image (4).png'
 
 const Navbar = () => {
+
     return (
         <div className='hero1'>
-            {/* <nav>
-                <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link>
+            <nav className='navbar navbar-dark navLine' style={{ position: 'fixed', top: '100px', zIndex: "5" }}>
+                {/* <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link> */}
                 <ul className="ul nav justify-content-between">
                     <li className="nav-item">
-                        <Link className="link active" aria-current="page" to="/">Home</Link>
+                        <Link className="link active" aria-current="page" to="/"
+                            style={{
+                                background: "transparent",
+                                width: "36px",
+                                borderRadius: "200px",
+                                margin: "-8px 26px",
+                                border: "2px solid orangered",
+                                padding: "5px 0 5px 0",
+                                display: 'grid'
+                            }}
+                        >Home</Link>
                     </li>
                     <li className="nav-item">
 
                         <li className="nav-item dropdown">
-                            <Link className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/ourServices">Our Services</Link>
-                            <ul className="dropdown-menu">
+                            {/* <Link className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/ourServices">Our Services</Link> */}
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <Link className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/ourServices">Our Services</Link>
+                            {/* <ul className="dropdown-menu">
                                 <li><Link className="dropdown-item" to="/ourServices">Website Development</Link></li>
                                 <li>
                                     <hr className="dropdown-divider" />
@@ -37,6 +51,14 @@ const Navbar = () => {
                                     <hr className="dropdown-divider" />
                                 </li>
                                 <li><Link className="dropdown-item" to="/Services4">Artificial Intelligence</Link></li>
+                            </ul> */}
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><Link class="dropdown-item" to="/ourServices">Website Development</Link></li>
+                                        <li><Link class="dropdown-item" to="/Services2">Custom Software Development</Link></li>
+                                        <li><Link class="dropdown-item" to="/Services3">Mobile App Development</Link></li>
+                                        <li><Link class="dropdown-item" to="/Services4">Artificial Intelligence</Link></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                     </li>
@@ -47,9 +69,10 @@ const Navbar = () => {
                         <Link className="link" to="/mainContact">Contact</Link>
                     </li>
                 </ul>
-            </nav> */}
+            </nav>
 
-            <nav className="navbar navbar-dark  fixed-top">
+            {/*side nav bar*/}
+            <nav className="navbar navbar-dark  fixed-top" style={{ zIndex: '1' }}>
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -66,10 +89,10 @@ const Navbar = () => {
                                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item"> {/*dropdown */}
-                                    <Link className="nav-link dropdown-toggle" to="/ourServices" role="button"  aria-expanded="false"> {/* data-bs-toggle="dropdown" */} 
+                                    <Link className="nav-link dropdown-toggle" to="/ourServices" role="button" aria-expanded="false"> {/* data-bs-toggle="dropdown" */}
                                         Our Services
                                     </Link>
-                                    <ul className="dropdown-menu-dark" style={{listStyleType:'none', padding:'0'}}> {/*dropdown-menu  */}
+                                    <ul className="dropdown-menu-dark" style={{ listStyleType: 'none', padding: '0' }}> {/*dropdown-menu  */}
                                         <li><Link className="dropdown-item" to="/ourServices">Website Development</Link></li>
                                         <li><Link className="dropdown-item" to="/Services2">Custom Software Development</Link></li>
                                         <li><Link className="dropdown-item" to="/Services3">Mobile App Development</Link></li>

@@ -1,5 +1,5 @@
 import React from 'react'
-import ken from "./Kanmart update-min.jpg"
+import ken from "./images/Kanmart update-min.jpg"
 import {
     Link,
 } from "react-router-dom";

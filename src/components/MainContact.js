@@ -78,7 +78,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-12">
-                          <input className='button' type="submit"  value="Let's work" style={{background:'transparent'}}/>
+                          <input className='button' type="submit"  value="Submit" style={{background:'transparent'}}/>
                         </div>
                     </form>
                 </div>

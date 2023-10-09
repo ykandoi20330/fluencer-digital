@@ -1,5 +1,5 @@
 import React from 'react'
-import sand from "./Sandesh Foundation update-min.jpg"
+import sand from "./images/Sandesh Foundation update-min.jpg"
 import {
     Link,
 } from "react-router-dom";

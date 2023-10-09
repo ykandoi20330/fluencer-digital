@@ -27,13 +27,17 @@ const About = () => {
               Our passionate team stays ahead of technologicaladvancements to deliver innovative, future-proof solutions. 
               Partner with us for a transformative journey towards sustainable growth. Contact us today.#
               Fluencer Digital is a dynamic digital solutions provider specializing in website development,mobile app development, and software solutions.
-              Our passionate team stays ahead of technologicaladvancements to deliver innovative, future-proof solutions. 
+              Our passionate team stays ahead of technological advancements to deliver innovative, future-proof solutions. 
               Partner with us for a transformative journey towards sustainable growth. Contact us today.
               <br />
               <br />
-              Fluencer Digital is a dynamic digital solutions provider specializing in website development,mobile app development, and software solutions.
-              Our passionate team stays ahead of technologicaladvancements to deliver innovative, future-proof solutions. 
-              Partner with us for a transformative journey towards sustainable growth. Contact us today.
+              Transforming your custom business ideas into an innovative next-gen web app is our forte. 
+              With proven results and promising qualitative deliverables across multiple tech markets, 
+              Fluencer digital solutions endures the client demands at scale and offers high-quality web development customized business solutions.
+              Upkeeping with changing client's expectations, our team of qualified web app developers delivers an impressive and secure web experience.
+              Our deep domain expertise combined with technology innovation help clients build disruptive user-friendly web applications with superior customer experience and higher business agility.
+              Design, develop and deploy web ap applications to bring impactful changes within your web development projects. Fluencer digital solution's development approach assists clients right from analyzing disruptive web development challenges to create an intuitive UI/UX, 
+              fully functional, and powerful web based solution.
             </div>
           </div>
         </div>

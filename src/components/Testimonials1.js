@@ -1,7 +1,8 @@
 import React from 'react'
 import quotePng from './quotes-3.png'
 import image from '../components/Testimonial/Background-removebg-preview.png'
-import image2 from '../components/Testimonial/Image 2.jpg'
+// import image2 from '../components/Testimonial/Image 2.jpg'
+import image2 from '../components/Testimonial/DirectorJit.png'
 
 const Testimonials1 = () => { 
     return (

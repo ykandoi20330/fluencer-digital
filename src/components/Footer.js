@@ -30,7 +30,7 @@ useEffect(()=>{
         <div className="container"> {/*data-aos="fade-up" {`${'hid2 container'} ${myElementIsVisible? 'show': 'hid2'}`} ref={myRef} */}
             <div>
                 <nav className='FooterNav'>
-                    <Link className="navbar-brand" to="#home"><img src={Logo} alt="Logo" className='LogoFooter' /></Link>
+                    <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='LogoFooter' /></Link>
                     <ul className="Footer-ul nav justify-content-between">
                         <li className="nav-link">
                             <Link className="link-a active" aria-current="page" to="/">Home</Link>
@@ -41,11 +41,11 @@ useEffect(()=>{
                         <li className="nav-link ">
                             <Link className="link-a" to="/ourWorks">Our Works</Link>
                         </li>
-                        <li className="nav-link ">
+                        {/* <li className="nav-link ">
                             <Link className="link-a" to="/">Terms of Service</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-link ">
-                            <Link className="link-a" to="/">Privacy Policy</Link>
+                            <Link className="link-a" to="/privacy">Privacy Policy</Link>
                         </li>
                     </ul>
                 </nav>

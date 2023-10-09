@@ -43,74 +43,76 @@ const Work = () => {
   //JavaScript code for change the div Content
   const [showtab, setShowtab] = useState(1);
 
-  const increment = ()=> {
+  const increment = () => {
     setShowtab(showtab + 1);
-    if(showtab === 7){
+    if (showtab === 7) {
       return setShowtab(1);
     }
   }
 
   return (
     <>
-      <div className='works cont' style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        marginBottom: '40px'
-      }}>
-        <div className="" data-aos="slide-left"> {/* {`${'hid'} ${myElementIsVisible? 'show': 'hid'}`} ref={myRef}  */}
+      <section>
+        <div className='works cont' style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '40px'
+        }}>
+          <div className="" data-aos="slide-left"> {/* {`${'hid'} ${myElementIsVisible? 'show': 'hid'}`} ref={myRef}  */}
+            <div>
+              <h3 className='h3title' style={{ color: 'white', fontSize: '2.75rem', marginTop: '10%' }}>Our Works<span style={{ color: 'orangered' }}>.</span></h3>
+            </div>
+          </div>
           <div>
-            <h3 className='h3title' style={{ color: 'white', fontSize: '2.75rem', marginTop: '10%' }}>Our Works<span style={{ color: 'orangered' }}>.</span></h3>
+            <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab(showtab - 1 || 7)}>&#xe5c4;</Link></i>  {/*  */}
+            <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={increment}>&#xe5c8;</Link></i> {/* */}
           </div>
         </div>
-        <div>
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={() => setShowtab( showtab - 1 || 7 )}>&#xe5c4;</Link></i>  {/*  */}
-          <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={increment}>&#xe5c8;</Link></i> {/* */}
+        <div className="first">
+          {showtab === 1 && <Work0 title="1" />}
+          {showtab === 2 && <Work1 title="2" />}
+          {showtab === 3 && <Work2 title="3" />}
+          {showtab === 4 && <Work3 title="4" />}
+          {showtab === 5 && <Work4 title="5" />}
+          {showtab === 6 && <Work5 title="6" />}
+          {showtab === 7 && <Work6 title="7" />}
         </div>
-      </div>
-      <div className="first">
-        {showtab === 1 && <Work0 title="1" />}
-        {showtab === 2 && <Work1 title="2" />}
-        {showtab === 3 && <Work2 title="3" />}
-        {showtab === 4 && <Work3 title="4" />}
-        {showtab === 5 && <Work4 title="5" />}
-        {showtab === 6 && <Work5 title="6" />}
-        {showtab === 7 && <Work6 title="7" />}
-      </div>
-      <div className='logobtn'>
-        <Swiper
-          modules={[Navigation, A11y]}
-          spaceBetween={50}
-          slidesPerView={7}
-          //  navigation
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
-        >
-          <SwiperSlide>
-            <button className="Showbtn" onClick={() => setShowtab(1)}><img className='btn1 back' style={{ width: '57%' }} src={firstLogo} alt="" /></button>
-          </SwiperSlide>
-          <SwiperSlide>
-            <button className="Showbtn" onClick={() => setShowtab(2)}><img className='btn2 back' style={{ width: '57%' }} src={bikeLogo} alt="" /></button>
-          </SwiperSlide>
+        <div className='logobtn'>
+          <Swiper
+            modules={[Navigation, A11y]}
+            spaceBetween={50}
+            slidesPerView={7}
+            //  navigation
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
+          >
+            <SwiperSlide>
+              <button className="Showbtn" onClick={() => setShowtab(1)}><img className='btn1 back' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={firstLogo} alt="" /></button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <button className="Showbtn" onClick={() => setShowtab(2)}><img className='btn2 back' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={bikeLogo} alt="" /></button>
+            </SwiperSlide>
 
-          <SwiperSlide>
-            <button className='Showbtn1' onClick={() => setShowtab(3)}><img className='btn2 back1' style={{ width: '36%' }} src={abebeelLogo} alt="" /></button> {/*fourthLogo */}
-          </SwiperSlide>
-          <SwiperSlide>
-            <button className='Showbtn' onClick={() => setShowtab(4)}><img className='btn2 back' style={{ width: '57%' }} src={thirdLogo} alt="" /></button>
-          </SwiperSlide>
-          <SwiperSlide>
-            <button className="Showbtn1" onClick={() => setShowtab(5)}><img className='btn2 back1' style={{ width: '36%' }} src={fiveLogo} alt="" /></button>
-          </SwiperSlide>
-          <SwiperSlide>
-            <button className='Showbtn1' onClick={() => setShowtab(6)}> <img className='btn2 back1' style={{ width: '36%' }} src={sixLogo} alt="" /></button>
-          </SwiperSlide>
-          <SwiperSlide>
-            <button className='Showbtn1' onClick={() => setShowtab(7)}><img className='btn2 back1' style={{ width: '36%', padding: '10px' }} src={jitLOgo} alt="" /></button> {/*sevenLogo */}
-          </SwiperSlide>
-        </Swiper>
+            <SwiperSlide>
+              <button className='Showbtn1' onClick={() => setShowtab(3)}><img className='btn2 back1' style={{ width: '36%' , position:'relative', zIndex:'-5'}} src={abebeelLogo} alt="" /></button> {/*fourthLogo */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <button className='Showbtn' onClick={() => setShowtab(4)}><img className='btn2 back' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={thirdLogo} alt="" /></button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <button className="Showbtn1" onClick={() => setShowtab(5)}><img className='btn2 back1' style={{ width: '36%' , position:'relative', zIndex:'-5'}} src={fiveLogo} alt="" /></button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <button className='Showbtn1' onClick={() => setShowtab(6)}> <img className='btn2 back1' style={{ width: '36%' , position:'relative', zIndex:'-5'}} src={sixLogo} alt="" /></button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <button className='Showbtn1' onClick={() => setShowtab(7)}><img className='btn2 back1' style={{ width: '36%', padding: '10px' , position:'relative', zIndex:'-5'}} src={jitLOgo} alt="" /></button> {/*sevenLogo */}
+            </SwiperSlide>
+          </Swiper>
 
-      </div>
+        </div>
+      </section>
     </>
   )
 }

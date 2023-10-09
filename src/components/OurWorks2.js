@@ -20,15 +20,15 @@ const OurWorks2 = () => {
   return (
     <div className='container1'>
           <div className="detail2 detail"  data-aos="slide-up">  {/*  {`${'hid2 detail'} ${myElementIsVisible ? 'show' : 'hid2'}`} ref={myRef}*/}
-          <div className='WrittenDetailwork2 writtenDetail'>
+          <div className='WrittenDetailwork2 writtenDetail1'>
             <div className='work' id='custom'>
               <h3 style={{ color: '#fff' }}>Sandesh Foundation<span style={{ color: 'orangered' }}>.</span></h3>
-              <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-                Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p><br />
-              <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-                Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
+              <p className='detail-para' style={{ color: 'gray' }}>The website is well-designed and easy to navigate. 
+              The homepage has a clear and concise call to action, inviting visitors to learn more about the organization,
+              It provides website owners and admins with a simplified interface for inputting and organizing their product related information! </p><br />
+              <p className='detail-para' style={{ color: 'gray' }}>The website is mobile-friendly, 
+              so it can be easily accessed on smartphones and tablets. This is important, 
+              as more and more people are using their mobile devices!! </p>
               <br />
               <Link className='workbtn' to="https://sandeshfoundation.in/">Visit Site</Link>
             </div>

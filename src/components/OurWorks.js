@@ -29,27 +29,25 @@ const OurWorks = () => {
       <div>
         <h1 className='heading' style={{ color: '#fff', WebkitTextStroke: '0px', textAlign: 'center', zIndex: '-1' }}>Our Works<span style={{ color: 'orangered', fontSize: '2.8rem' }}>.</span></h1>
       </div>
-      <div>
+      {/* <div>
         <ul className='ul-ourWorks container'>
           <li><Link to="#mobile">Mobile</Link></li>
           <li><Link to="#website">Website</Link></li>
           <li><Link to="#custom">Custom Software</Link></li>
           <li><Link to="#arti">Artificial Intelligence</Link></li>
         </ul>
-      </div>
-      <div className="detail" data-aos="slide-up">  {/*   {`${'hid2 detail'} ${myElementIsVisible ? 'show' : 'hid2'}`} ref={myRef}*/}
+      </div> */}
+      <div className="detail container1" data-aos="slide-up">  {/*   {`${'hid2 detail'} ${myElementIsVisible ? 'show' : 'hid2'}`} ref={myRef}*/}
         <div>
           <img style={{ width: '40vw' }} src={Image} alt="" />
         </div>
         <div className=' writtenDetail'>
-          <div className='work1 work' id='website'>
+        <div className=' work' id='website'> {/*work1*/}
             <h3 style={{ color: '#fff' }}>Goral Advisory<span style={{ color: 'orangered' }}>.</span></h3>
-            <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-              Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p><br />
-            <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-              Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
+            <p className='detail-para' style={{ color: 'gray' }}> Garol Advisory is a finance consulting platform. React was used for frontend with Vite to speed up deployment,
+            Typescript was used to ensure bug free production, point buckets were used to store data, css animations were also incorporated.! </p><br />
+            <p className='detail-para' style={{ color: 'gray' }}> Garol Advisory is a finance consulting platform. React was used for frontend with Vite to speed up deployment,
+            Typescript was used to ensure bug free production, point buckets were used to store data, css animations were also incorporated!.</p>
             <br />
             <Link className='workbtn' to="https://garol.in/">Visit Site</Link>
           </div>

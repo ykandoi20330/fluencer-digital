@@ -1,5 +1,5 @@
 import React from 'react'
-import Keith from "./Keithston update-min.jpg"
+import Keith from "./images/Keithston update-min.jpg"
 import {
     Link,
 } from "react-router-dom";

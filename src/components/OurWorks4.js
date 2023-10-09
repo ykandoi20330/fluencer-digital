@@ -21,7 +21,7 @@ const OurWorks4 = () => {
   return (
     <div className='container1'>
          <div className="detail4 detail" data-aos="slide-up">  {/* {`${'hid2 detail'} ${myElementIsVisible ? 'show' : 'hid2'}`} ref={myRef} */}
-          <div className='WrittenDetailwork4 writtenDetail'>
+          <div className='WrittenDetailwork4 writtenDetail1'>
             <div className='work' id='div1'>
               <h3 style={{ color: '#fff' }}>Myple<span style={{ color: 'orangered' }}>.</span></h3>
               <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.

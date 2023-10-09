@@ -19,6 +19,7 @@ import Navbar from './components/Navbar';
 import OurServicesPart from './components/OurServicesPart';
 import OurServicesThree from './components/OurServicesThree';
 import OurServicesFour from './components/OurServicesFour';
+import Privacy from './components/Privacy';
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/Services4" element={<OurServicesFour />} />
+        </Routes>
+        <Routes>
+          <Route path="/privacy" element={<Privacy/>} />
         </Routes>
         <Footer />
       </HashRouter>

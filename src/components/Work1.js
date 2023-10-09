@@ -1,5 +1,5 @@
 import React from 'react'
-import Bike from "./Myple update-min.jpg"
+import Bike from "./images/Myple update-min.jpg"
 import {
   Link,
 } from "react-router-dom";

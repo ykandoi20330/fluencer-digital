@@ -16,7 +16,7 @@ const Contact = () => {
     }, [])
 
     return (
-        <div className='cont' style={{ marginTop: '100px' }}>
+        <div className='cont' style={{ marginTop: '120px' }}>
             <div className="contact">
                 <div className="firstPart"> {/*  data-aos="zoom-in"  {`${'hid4 firstPart'} ${myElementIsVisible? 'show': 'hid4'}`} ref={myRef}*/}
                     <img style={{ width: '100%', marginRight: '30px' }} src={image} alt="" />
@@ -72,7 +72,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-12">
-                          <input className='button' type="submit"  value="Let's work" style={{background:'transparent'}}/>
+                          <input className='button' type="submit"  value="Submit" style={{background:'transparent'}}/>
                         </div>
                     </form>
                 </div>
