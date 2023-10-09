@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fluencer-digital/static/css/main.c4a6a672.css",
-    "main.js": "/fluencer-digital/static/js/main.adb94dfc.js",
+    "main.css": "/fluencer-digital/static/css/main.9a1f24c9.css",
+    "main.js": "/fluencer-digital/static/js/main.e8433334.js",
     "static/js/787.a9136a80.chunk.js": "/fluencer-digital/static/js/787.a9136a80.chunk.js",
     "static/media/Software Development.jpg": "/fluencer-digital/static/media/Software Development.0ac841e41e3c641f022a.jpg",
     "static/media/BGVideo.mp4": "/fluencer-digital/static/media/BGVideo.a45af1f474d63cacca63.mp4",
@@ -15,6 +15,7 @@
     "static/media/MaskGroup.png": "/fluencer-digital/static/media/MaskGroup.e19401a7a276ed24eec7.png",
     "static/media/Ababeel1update-min.png": "/fluencer-digital/static/media/Ababeel1update-min.9d199e04d2a2e31747cb.png",
     "static/media/Mobile.jpg": "/fluencer-digital/static/media/Mobile.58cb5b13b1fe6c2a4f94.jpg",
+    "static/media/web-development.jpg": "/fluencer-digital/static/media/web-development.cbee62aa89edcfdf25c3.jpg",
     "static/media/Mobile-App.png": "/fluencer-digital/static/media/Mobile-App.765e3b429d3c0024f812.png",
     "static/media/Image 3.jpg": "/fluencer-digital/static/media/Image 3.e285add056e3159764a7.jpg",
     "static/media/AI.jpg": "/fluencer-digital/static/media/AI.f3329870622e6039727b.jpg",
@@ -23,10 +24,11 @@
     "static/media/Image 4.jpg": "/fluencer-digital/static/media/Image 4.de2a1ff1707f1c80a52b.jpg",
     "static/media/Image 5.jpg": "/fluencer-digital/static/media/Image 5.0d2faf7202a3983a7db5.jpg",
     "static/media/Image 1.jpg": "/fluencer-digital/static/media/Image 1.fe91d5b8d39ce4a224b0.jpg",
-    "static/media/Image 2.jpg": "/fluencer-digital/static/media/Image 2.c738c9da052b5a26387d.jpg",
     "static/media/Myple-min.jpg": "/fluencer-digital/static/media/Myple-min.9954ca35f8802adb8dc2.jpg",
     "static/media/Keithston-min.jpg": "/fluencer-digital/static/media/Keithston-min.47c461185bdb4fe48ecd.jpg",
+    "static/media/DirectorJit.png": "/fluencer-digital/static/media/DirectorJit.328ec66b0a45a7247fea.png",
     "static/media/Sandesh Foundation update-min.jpg": "/fluencer-digital/static/media/Sandesh Foundation update-min.665c0e8190598a5e4976.jpg",
+    "static/media/free-privacy.jpg": "/fluencer-digital/static/media/free-privacy.5ba7d94fc86807adf9d5.jpg",
     "static/media/Garol Advisory-min.jpg": "/fluencer-digital/static/media/Garol Advisory-min.8f0edf5398bc3a7bf7c2.jpg",
     "static/media/Kanmart-min.jpg": "/fluencer-digital/static/media/Kanmart-min.43f493791eb54938c04c.jpg",
     "static/media/Myple update-min.jpg": "/fluencer-digital/static/media/Myple update-min.bf941df6996fa4b20916.jpg",
@@ -44,12 +46,12 @@
     "static/media/Sandesh Foundation.png": "/fluencer-digital/static/media/Sandesh Foundation.facbc1a4f240eb123115.png",
     "static/media/image (4).png": "/fluencer-digital/static/media/image (4).cdf4aef9f5ecc2dc9643.png",
     "index.html": "/fluencer-digital/index.html",
-    "main.c4a6a672.css.map": "/fluencer-digital/static/css/main.c4a6a672.css.map",
-    "main.adb94dfc.js.map": "/fluencer-digital/static/js/main.adb94dfc.js.map",
+    "main.9a1f24c9.css.map": "/fluencer-digital/static/css/main.9a1f24c9.css.map",
+    "main.e8433334.js.map": "/fluencer-digital/static/js/main.e8433334.js.map",
     "787.a9136a80.chunk.js.map": "/fluencer-digital/static/js/787.a9136a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4a6a672.css",
-    "static/js/main.adb94dfc.js"
+    "static/css/main.9a1f24c9.css",
+    "static/js/main.e8433334.js"
   ]
 }
