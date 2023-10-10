@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import Logo from './Logo.png'
 /*social media icons */
 import Linked from './Linkedin.png'
@@ -10,11 +10,37 @@ import {
 } from "react-router-dom";
 import sideBar from './image (4).png'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Navbar = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 500 });
+    }, [])
+
+    //javascript for navbar
+    const [open, setOpen] = useState(true);
+
+    var lastScrollTop = 0;
+    // const navbar = document.getElementById("middleNav");
+    window.addEventListener("scroll", function(){
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if(scrollTop > lastScrollTop){
+            setOpen(false)
+        } else{
+            setOpen(true)
+        }
+        lastScrollTop = scrollTop;
+    })
 
     return (
         <div className='hero1'>
-            <nav className='navbar navbar-dark navLine' style={{ position: 'fixed', top: '100px', zIndex: "5" }}>
+
+            {/*Middle navbar */}
+
+            {open === false ||
+            <nav className='navbar navbar-dark navline' id="middleNav" style={{ position: 'fixed',top:'30px',zIndex: "5" }}>
                 {/* <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link> */}
                 <ul className="ul nav justify-content-between">
                     <li className="nav-item">
@@ -59,15 +85,16 @@ const Navbar = () => {
                         <Link className="link" to="/mainContact">Contact</Link>
                     </li>
                 </ul>
-            </nav>
+            </nav> }
 
             {/*side nav bar*/}
             <nav className="navbar navbar-dark  fixed-top" style={{ zIndex: '1' }}>
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    {open === true ||
+                    <button className="navbar-toggler" data-aos="slide-right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler"><img src={sideBar} style={{ width: '40px' }} alt='sidebar' /></span>
-                    </button>
+                    </button> }
                     <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel" style={{ color: '#ED1C24' }}><img src={Logo} style={{ width: '60px' }} />Fluencer</h5>

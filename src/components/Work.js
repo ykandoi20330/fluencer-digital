@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import bikeLogo from './Myple.png'
-import firstLogo from './Garol Advisory.png'
-import thirdLogo from './Sandesh Foundation.png'
+import bikeLogo from './logo/Myple.png'
+import firstLogo from './logo/Garol Advisory.png'
+import thirdLogo from './logo/Sandesh Foundation.png'
 // import fourthLogo from './Ababeel-removebg-preview.png'
-import fiveLogo from './Kn-removebg-preview.png'
-import sixLogo from './3-removebg-preview.png'
+import fiveLogo from './logo/Kn-removebg-preview.png'
+import sixLogo from './logo/3-removebg-preview.png'
 // import sevenLogo from './Jaipur-removebg-preview.png'
-import jitLOgo from "./jit logo.png"
-import abebeelLogo from "./ababeelLogo-removebg-preview.png"
+import jitLOgo from "./logo/jit logo (1).png"
+import abebeelLogo from "./logo/ababeelLogo-removebg-preview (1).png"
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -69,7 +69,7 @@ const Work = () => {
             <i className="material-icons mx-3" style={{ color: '#fff' }}><Link className='slide-arrow' to='/' onClick={increment}>&#xe5c8;</Link></i> {/* */}
           </div>
         </div>
-        <div className="first">
+        <div className="Workfirst">
           {showtab === 1 && <Work0 title="1" />}
           {showtab === 2 && <Work1 title="2" />}
           {showtab === 3 && <Work2 title="3" />}
@@ -81,8 +81,23 @@ const Work = () => {
         <div className='logobtn'>
           <Swiper
             modules={[Navigation, A11y]}
-            spaceBetween={50}
-            slidesPerView={7}
+            // spaceBetween={50}
+            // slidesPerView={7}
+            breakpoints={{
+              // when window width is >= 660px
+              0: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              660: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+              },
+              800: {
+                slidesPerView: 7,
+                spaceBetween: 50,
+              }
+            }}
             //  navigation
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
@@ -95,19 +110,19 @@ const Work = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <button className='Showbtn1' onClick={() => setShowtab(3)}><img className='btn2 back1' style={{ width: '36%' , position:'relative', zIndex:'-5'}} src={abebeelLogo} alt="" /></button> {/*fourthLogo */}
+              <button className='Showbtn1' onClick={() => setShowtab(3)}><img className='btn2 back1' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={abebeelLogo} alt="" /></button> {/*fourthLogo */}
             </SwiperSlide>
             <SwiperSlide>
               <button className='Showbtn' onClick={() => setShowtab(4)}><img className='btn2 back' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={thirdLogo} alt="" /></button>
             </SwiperSlide>
             <SwiperSlide>
-              <button className="Showbtn1" onClick={() => setShowtab(5)}><img className='btn2 back1' style={{ width: '36%' , position:'relative', zIndex:'-5'}} src={fiveLogo} alt="" /></button>
+              <button className="Showbtn1" onClick={() => setShowtab(5)}><img className='btn2 back1' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={fiveLogo} alt="" /></button>
             </SwiperSlide>
             <SwiperSlide>
-              <button className='Showbtn1' onClick={() => setShowtab(6)}> <img className='btn2 back1' style={{ width: '36%' , position:'relative', zIndex:'-5'}} src={sixLogo} alt="" /></button>
+              <button className='Showbtn1' onClick={() => setShowtab(6)}> <img className='btn2 back1' style={{ width: '57%' , position:'relative', zIndex:'-5'}} src={sixLogo} alt="" /></button>
             </SwiperSlide>
             <SwiperSlide>
-              <button className='Showbtn1' onClick={() => setShowtab(7)}><img className='btn2 back1' style={{ width: '36%', padding: '10px' , position:'relative', zIndex:'-5'}} src={jitLOgo} alt="" /></button> {/*sevenLogo */}
+              <button className='Showbtn1' onClick={() => setShowtab(7)}><img className='btn2 back1' style={{ width: '57%', padding: '10px' , position:'relative', zIndex:'-5'}} src={jitLOgo} alt="" /></button> {/*sevenLogo */}
             </SwiperSlide>
           </Swiper>
 

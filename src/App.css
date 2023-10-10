@@ -102,8 +102,8 @@ nav {
 }
 
 .ul {
-  top: -55px;
-  left: -20px;
+  /* top: -55px; */
+  /* left: -20px; */
   position: relative;
 }
 
@@ -462,6 +462,10 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 
 /* Work Section*/
 
+.Workfirst{
+  height: 55vh;
+}
+
 .first {
   display: flex;
   justify-content: center;
@@ -505,7 +509,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
   background-image: cadetblue;
   border: none;
   border-radius: 200px;
-  /* padding: 17px; */
+  padding: 10px;
   backdrop-filter: blur(20px);
 }
 
@@ -530,7 +534,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 
 .Showbtn:focus:not(:focus-visible) {
   outline: 0;
-  width: 10rem;
+  width: 11rem;
   transition: all 1s ease;
 }
 
@@ -541,7 +545,7 @@ html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate {
 }
 .Showbtn1:focus:not(:focus-visible) {
   outline: 0;
-  width: 14rem;
+  width: 11rem;
   transition: all 1s ease;
 }
 
@@ -1196,6 +1200,7 @@ button:focus:not(:focus-visible) {
   --bs-dropdown-link-active-bg: orangered !important;
 }
 
+
 /*middle navbar*/
 .navbar-nav .dropdown-menu {
   position: absolute !important;
@@ -1271,6 +1276,11 @@ button:focus:not(:focus-visible) {
     left: -35px !important;
     position: relative !important;
   }
+
+  /*work section*/
+  .Workfirst {
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width:1670px) {
@@ -1287,6 +1297,11 @@ button:focus:not(:focus-visible) {
   .offcanvas-header .btn-close {
     left: -35px !important;
     position: relative !important;
+  }
+
+  /*work section*/
+  .Workfirst{
+    height: 56vh;
   }
 }
 
@@ -1337,6 +1352,11 @@ button:focus:not(:focus-visible) {
     position: relative !important;
   }
 
+  /*work section*/
+  .Workfirst{
+    height: 48vh;
+  }
+
 }
 
 @media screen and (max-width:1250px) {
@@ -1378,6 +1398,10 @@ button:focus:not(:focus-visible) {
     font-size: 14px !important;
   }
 
+  .Workfirst{
+    height: 39vh;
+  }
+
   /* 
   .SlideImage {
     width: 145% !important;
@@ -1387,9 +1411,9 @@ button:focus:not(:focus-visible) {
     margin: 20px 20px 0 240px;
   }
 
-  .btn2{
+  /* .btn2{
     width: 55% !important;
-  }
+  } */
 
   /*Us Section*/
   .box1 {
@@ -1511,6 +1535,10 @@ button:focus:not(:focus-visible) {
   /* Work section*/
   .work {
     font-size: 13px !important;
+  }
+
+  .Workfirst{
+    height: 34vh;
   }
 
   /* .SlideImage {
@@ -1672,6 +1700,10 @@ button:focus:not(:focus-visible) {
   /* Work section*/
   .work {
     font-size: 10px !important;
+  }
+
+  .Workfirst{
+    height: 30vh;
   }
 
   /* .work1-img{
@@ -1938,6 +1970,10 @@ button:focus:not(:focus-visible) {
   /* Work section*/
   .work {
     font-size: 8px !important;
+  }
+
+  .Workfirst{
+    height: 24vh;
   }
 
   /* .SlideImage {
@@ -2220,6 +2256,10 @@ button:focus:not(:focus-visible) {
     font-size: 6px !important;
   }
 
+  .Workfirst{
+    height: 20vh;
+  }
+
   /* .work1-img{
     height: 30vh !important;
   } */
@@ -2251,7 +2291,7 @@ button:focus:not(:focus-visible) {
   }
 
   .btn2 {
-    width: 45% !important;
+    width: 48% !important;
   }
 
   .Showbtn{
@@ -2364,7 +2404,7 @@ button:focus:not(:focus-visible) {
   .web {
     border: none !important;
     width: 95% !important;
-    height: 31vh !important;
+    height: 33vh !important;
     cursor: pointer;
     position: relative;
     background: #0c0c0c;
@@ -2393,11 +2433,6 @@ button:focus:not(:focus-visible) {
 
   .Privacyheading {
     font-size: 4rem;
-  }
-
-  /**/
-  .navLine{
-    display: none !important;
   }
 }
 
@@ -2634,6 +2669,11 @@ button:focus:not(:focus-visible) {
     font-size: 6px !important;
     margin: 8px;
     width: 96% !important;
+  }
+
+  .Workfirst{
+    height: 57vh;
+    padding-left: 20px;
   }
 
 
@@ -2986,8 +3026,16 @@ button:focus:not(:focus-visible) {
     width: 120%;
   }
 
-  .navLine{
-    display: none !important;
+  /*MiddleNav*/
+  .navline{
+    position: fixed;
+    top: 15px !important;
+    z-index: 5;
+  }
+
+  .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: relative;
+    top: -3px;
   }
 
   /*Privacy section*/
