@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fluencer-digital/static/css/main.db839444.css",
-    "main.js": "/fluencer-digital/static/js/main.f31722c8.js",
+    "main.css": "/fluencer-digital/static/css/main.ba5390c7.css",
+    "main.js": "/fluencer-digital/static/js/main.7c4df01e.js",
     "static/js/787.a9136a80.chunk.js": "/fluencer-digital/static/js/787.a9136a80.chunk.js",
     "static/media/Software Development.jpg": "/fluencer-digital/static/media/Software Development.0ac841e41e3c641f022a.jpg",
     "static/media/BGVideo.mp4": "/fluencer-digital/static/media/BGVideo.a45af1f474d63cacca63.mp4",
@@ -15,7 +15,7 @@
     "static/media/Mobile.jpg": "/fluencer-digital/static/media/Mobile.58cb5b13b1fe6c2a4f94.jpg",
     "static/media/web-development.jpg": "/fluencer-digital/static/media/web-development.cbee62aa89edcfdf25c3.jpg",
     "static/media/Mobile-App.png": "/fluencer-digital/static/media/Mobile-App.765e3b429d3c0024f812.png",
-    "static/media/Image 3.jpg": "/fluencer-digital/static/media/Image 3.e285add056e3159764a7.jpg",
+    "static/media/AbabeelFounder-modified.png": "/fluencer-digital/static/media/AbabeelFounder-modified.6a8591f0909c87ac664a.png",
     "static/media/AI.jpg": "/fluencer-digital/static/media/AI.f3329870622e6039727b.jpg",
     "static/media/Sandesh Foundation-min.jpg": "/fluencer-digital/static/media/Sandesh Foundation-min.b727796cd9ff507c697a.jpg",
     "static/media/Image 6.jpg": "/fluencer-digital/static/media/Image 6.39d1eb138555d80d814f.jpg",
@@ -31,27 +31,22 @@
     "static/media/JIT update-min.jpg": "/fluencer-digital/static/media/JIT update-min.06f3f999b223a24d92eb.jpg",
     "static/media/NewtonSchools-modified.png": "/fluencer-digital/static/media/NewtonSchools-modified.a5bc458a79663c64ee09.png",
     "static/media/Sandesh Foundation update-min.jpg": "/fluencer-digital/static/media/Sandesh Foundation update-min.618074642d36b503a659.jpg",
-    "static/media/jit logo.png": "/fluencer-digital/static/media/jit logo.4fefdb411e889ec98436.png",
-    "static/media/3-removebg-preview.png": "/fluencer-digital/static/media/3-removebg-preview.8892e3f732da1c65ba3f.png",
     "static/media/Myple update-min.jpg": "/fluencer-digital/static/media/Myple update-min.bee18d8e9f258775d428.jpg",
-    "static/media/Kn-removebg-preview.png": "/fluencer-digital/static/media/Kn-removebg-preview.d319a4d102c8dabe36a9.png",
     "static/media/quotes-3.png": "/fluencer-digital/static/media/quotes-3.28b184f88a1cc1c1e6ba.png",
     "static/media/Background-removebg-preview.png": "/fluencer-digital/static/media/Background-removebg-preview.376ab688475f88ed9003.png",
-    "static/media/ababeelLogo-removebg-preview.png": "/fluencer-digital/static/media/ababeelLogo-removebg-preview.e9e577e00621e13db0c9.png",
     "static/media/Keithston update-min.jpg": "/fluencer-digital/static/media/Keithston update-min.0c699042db8939d51eb7.jpg",
     "static/media/AI5I4727 update-min.jpg": "/fluencer-digital/static/media/AI5I4727 update-min.429b99e3a00a2c6cb668.jpg",
     "static/media/Logo.png": "/fluencer-digital/static/media/Logo.ae68474872e6d257d0f3.png",
     "static/media/Kanmart update-min.jpg": "/fluencer-digital/static/media/Kanmart update-min.0f66fd6a7f48fda4ff08.jpg",
     "static/media/REACT JS.png": "/fluencer-digital/static/media/REACT JS.4d34baf2c0902e36dbdd.png",
-    "static/media/Sandesh Foundation.png": "/fluencer-digital/static/media/Sandesh Foundation.facbc1a4f240eb123115.png",
     "static/media/image (4).png": "/fluencer-digital/static/media/image (4).cdf4aef9f5ecc2dc9643.png",
     "index.html": "/fluencer-digital/index.html",
-    "main.db839444.css.map": "/fluencer-digital/static/css/main.db839444.css.map",
-    "main.f31722c8.js.map": "/fluencer-digital/static/js/main.f31722c8.js.map",
+    "main.ba5390c7.css.map": "/fluencer-digital/static/css/main.ba5390c7.css.map",
+    "main.7c4df01e.js.map": "/fluencer-digital/static/js/main.7c4df01e.js.map",
     "787.a9136a80.chunk.js.map": "/fluencer-digital/static/js/787.a9136a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db839444.css",
-    "static/js/main.f31722c8.js"
+    "static/css/main.ba5390c7.css",
+    "static/js/main.7c4df01e.js"
   ]
 }
