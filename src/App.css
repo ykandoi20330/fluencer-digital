@@ -3035,7 +3035,7 @@ button:focus:not(:focus-visible) {
 
   .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
     position: relative;
-    top: -3px;
+    top: -4px;
   }
 
   /*Privacy section*/
