@@ -1,5 +1,5 @@
 import React from 'react'
-import ababeel from "./images/Ababeel1update-min.png"
+import ababeel from "./images/Ababeel1update-min.jpg"
 // import ab from "./Ababeel2.png"
 import {
     Link,

@@ -27,14 +27,11 @@ const OurWorks3 = () => {
           <div className='writtenDetail'>
             <div className='work' id='mobile'>
               <h3 style={{ color: '#fff' }}>Kanmart<span style={{ color: 'orangered' }}>.</span>(Refurbished india)</h3>
-              <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-                Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p><br />
-              <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-                Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
+              <p className='detail-para' style={{ color: 'gray' }}> As a e-commerce Brand, we are hopeful of making a big impact in the refurbished products market, starting off with smartphones and laptops as our star categories.
+               we have all types of categories for our customers to buy anything from kanmart,we provides best products experience to customers, We will be adding new product segments in the future.! </p><br />
+              <p className='detail-para' style={{ color: 'gray' }}> Customers can visit the e-store to buy refurbished products and accessories for their smartphones, laptos and other products as the brand has also launched a range of accessories from smartphone covers, Headphones, chairs, daily essentail and laptops , tablets etc.! </p>
               <br />
-              <Link className='workbtn' to="/">Read More</Link>
+              {/* <Link className='workbtn' to="/">Read More</Link> */}
             </div>
           </div>
         </div>

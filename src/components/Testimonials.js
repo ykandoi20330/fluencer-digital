@@ -3,9 +3,11 @@ import image from '../components/Testimonial/Background-removebg-preview.png'
 import image1 from '../components/Testimonial/Image 1.jpg'
 // import image2 from '../components/Testimonial/Image 2.jpg'
 import image2 from '../components/Testimonial/DirectorJit.png'
+import image4 from '../components/Testimonial/founderGarol-modified.png'
 import image3 from '../components/Testimonial/Image 3.jpg'
-import image4 from '../components/Testimonial/Image 4.jpg'
-import image5 from '../components/Testimonial/Image 5.jpg'
+// import image4 from '../components/Testimonial/Image 4.jpg'
+// import image5 from '../components/Testimonial/Image 5.jpg'
+import image5 from '../components/Testimonial/NewtonSchools-modified.png'
 import image6 from '../components/Testimonial/Image 6.jpg'
 
 // import { useInView } from 'react-intersection-observer';
@@ -13,6 +15,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Testimonials1 from './Testimonials1'
 import Testimonials2 from './Testimonials2'
+import Testimonials3 from './Testimonials3'
+import Testimonials4 from './Testimonials4'
 
 const Testimonials = () => {
 
@@ -79,6 +83,12 @@ const Testimonials = () => {
                             </div>
                             <div class="carousel-item">
                                 <Testimonials2 />
+                            </div>
+                            <div class="carousel-item">
+                                <Testimonials3/>
+                            </div>
+                            <div class="carousel-item">
+                                <Testimonials4/>
                             </div>
                         </div>
                     </div>

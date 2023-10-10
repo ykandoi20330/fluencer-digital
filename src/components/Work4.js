@@ -12,16 +12,11 @@ const Work4 = () => {
             </div>
             <div className='work' id='div1' data-aos="slide-left">   {/*{`${'hid1 write container'} ${myElementIsVisible? 'show': 'hid1'}`} ref={myRef} */}  {/*hid1 */}
                 <h3 style={{ color: '#fff' }}>Kanmart(Refurbished india)<span style={{ color: 'orangered' }}>.</span></h3>
-                <p className='p1' style={{ color: 'gray' }}> The website is well-designed and easy to navigate. The
-                    homepage has a clear and concise call to action, inviting
-                    visitors to learn more about the organization, It provides website owners and admins
-                    with a simplified interface for inputting and organizing
-                    their product related information. </p><br />
-                <p className='p1' style={{ color: 'gray' }}> The website is mobile-friendly, so it can be easily
-                    accessed on smartphones and tablets. This is important,
-                    as more and more people are using their mobile devices! </p>
+                <p className='p1' style={{ color: 'gray' }}>  As a e-commerce Brand, we are hopeful of making a big impact in the refurbished products market, starting off with smartphones and laptops as our star categories.
+               we have all types of categories for our customers to buy anything from kanmart,we provides best products experience to customers, We will be adding new product segments in the future.! </p><br />
+                <p className='p1' style={{ color: 'gray' }}> Customers can visit the e-store to buy refurbished products and accessories for their smartphones, laptos and other products as the brand has also launched a range of accessories from smartphone covers, Headphones, chairs, daily essentail and laptops , tablets etc.! </p>
                 <br />
-                <Link className='workbtn' to="/">Read More</Link>
+                {/* <Link className='workbtn' to="/">Read More</Link> */}
             </div>
         </div>
     )

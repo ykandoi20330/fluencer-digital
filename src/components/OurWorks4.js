@@ -24,14 +24,12 @@ const OurWorks4 = () => {
           <div className='WrittenDetailwork4 writtenDetail1'>
             <div className='work' id='div1'>
               <h3 style={{ color: '#fff' }}>Myple<span style={{ color: 'orangered' }}>.</span></h3>
-              <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-                Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p><br />
-              <p className='detail-para' style={{ color: 'gray' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur consequatur, libero nobis assumenda debitis laudantium corrupti veniam dignissimos rerum dolorum.
-                Atque iure blanditiis odio ipsum nisi natus consectetur, sunt debitis! </p>
+              <p className='detail-para' style={{ color: 'gray' }}> Choose any bike you like, Are you ready to hit the road and experience the thrill of a two-wheeled adventure? Look no further than Myple, the leading platform connecting Bike owners and passionate riders like you.
+ Whether you're seeking an exhilarating escape, affordable bike rental in your city, or bike rental for tourists, we've got you covered.! </p><br />
+              <p className='detail-para' style={{ color: 'gray' }}>Experience the joy of riding without the commitment of ownership. At Myple, we offer a vast selection of well-maintained bikes for rent, catering to riders of all skill levels. Whether you're seasoned enthusiast or a curious beginner, 
+              our diverse range of bikes ensures you'll find the perfect ride for any occasion.! </p>
               <br />
-              <Link className='workbtn' to="/">Read More</Link>
+              {/* <Link className='workbtn' to="/">Read More</Link> */}
             </div>
           </div>
           <div>

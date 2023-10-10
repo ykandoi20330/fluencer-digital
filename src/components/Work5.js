@@ -12,16 +12,12 @@ const Work5 = () => {
             </div>
             <div className='work' id='div1' data-aos="slide-left">   {/*{`${'hid1 write container'} ${myElementIsVisible? 'show': 'hid1'}`} ref={myRef} */}  {/*hid1 */}
                 <h3 style={{ color: '#fff' }}>Keithston<span style={{ color: 'orangered' }}>.</span></h3>
-                <p className='p1' style={{ color: 'gray' }}> The website is well-designed and easy to navigate. The
-                    homepage has a clear and concise call to action, inviting
-                    visitors to learn more about the organization, It provides website owners and admins
-                    with a simplified interface for inputting and organizing
-                    their product related information. </p><br />
-                <p className='p1' style={{ color: 'gray' }}> The website is mobile-friendly, so it can be easily
-                    accessed on smartphones and tablets. This is important,
-                    as more and more people are using their mobile devices! </p>
+                <p className='p1' style={{ color: 'gray' }}> We champion continual progress for athletes and sport by taking action to help athletes reach their potential. Every job at Keithston, Inc. is grounded in a team-first mindset,
+               cultivating a culture of innovation and a shared purpose to leave an enduring impact.s!</p><br />
+                <p className='p1' style={{ color: 'gray' }}> At Keithston we craft shoes with care for everyone- men, women and kids, with an equal attention to detail, letting each shoe speak for itself. 
+              The world-class quality, trendy designs and affordable prices have captured the imagination of millions of people, across the country- making Keithston, an aspirational brand especially for - young adults, everyday performers and fashionistas.! </p>
                 <br />
-                <Link className='workbtn' to="/">Read More</Link>
+                {/* <Link className='workbtn' to="/">Read More</Link> */}
             </div>
         </div>
     )

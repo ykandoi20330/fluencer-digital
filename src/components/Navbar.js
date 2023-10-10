@@ -18,17 +18,7 @@ const Navbar = () => {
                 {/* <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link> */}
                 <ul className="ul nav justify-content-between">
                     <li className="nav-item">
-                        <Link className="link active" aria-current="page" to="/"
-                            style={{
-                                background: "transparent",
-                                width: "36px",
-                                borderRadius: "200px",
-                                margin: "-8px 26px",
-                                border: "2px solid orangered",
-                                padding: "5px 0 5px 0",
-                                display: 'grid'
-                            }}
-                        >Home</Link>
+                        <Link className="link active" aria-current="page" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
 

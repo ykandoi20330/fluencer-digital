@@ -1,5 +1,5 @@
 import React from 'react'
-import JIT from "./images/JIT update-min.png"
+import JIT from "./images/JIT update-min.jpg"
 import {
     Link,
 } from "react-router-dom";
