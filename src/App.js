@@ -20,11 +20,13 @@ import OurServicesPart from './components/OurServicesPart';
 import OurServicesThree from './components/OurServicesThree';
 import OurServicesFour from './components/OurServicesFour';
 import Privacy from './components/Privacy';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       < HashRouter >
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

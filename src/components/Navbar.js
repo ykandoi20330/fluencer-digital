@@ -53,21 +53,6 @@ const Navbar = () => {
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <Link className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/ourServices">Our Services</Link>
-                            {/* <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/ourServices">Website Development</Link></li>
-                                <li>
-                                    <hr className="dropdown-divider" />
-                                </li>
-                                <li><Link className="dropdown-item" to="/Services2">Custom Software Development</Link></li>
-                                <li>
-                                    <hr className="dropdown-divider" />
-                                </li>
-                                <li><Link className="dropdown-item" to="/Services3">Mobile App Development</Link></li>
-                                <li>
-                                    <hr className="dropdown-divider" />
-                                </li>
-                                <li><Link className="dropdown-item" to="/Services4">Artificial Intelligence</Link></li>
-                            </ul> */}
                                     <ul class="dropdown-menu dropdown-menu-dark">
                                         <li><Link class="dropdown-item" to="/ourServices">Website Development</Link></li>
                                         <li><Link class="dropdown-item" to="/Services2">Custom Software Development</Link></li>
@@ -92,7 +77,7 @@ const Navbar = () => {
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className='Logo' /></Link>
                     {open === true ||
-                    <button className="navbar-toggler" data-aos="slide-right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <button className="navbar-toggler sideNav" data-aos="slide-right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler"><img src={sideBar} style={{ width: '40px' }} alt='sidebar' /></span>
                     </button> }
                     <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">

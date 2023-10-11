@@ -39,8 +39,8 @@ const Testimonials = () => {
             <section>
                 <div className='Testimonial-main cont'>
                     <div>
-                        <i className="material-icons mx-3"><a className='slide-arrow' data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next" >&#xe5c4;</a></i>   {/*  onClick={() => setShowtab("part1")}*/}
-                        <i className="material-icons mx-3"><a className='slide-arrow' data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev" >&#xe5c8;</a></i>   {/*onClick={() => setShowtab("part2")} */}
+                        <i className="material-icons mx-3"><a className='slide-arrow' data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" >&#xe5c4;</a></i>   {/*  onClick={() => setShowtab("part1")}*/}
+                        <i className="material-icons mx-3"><a className='slide-arrow' data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" >&#xe5c8;</a></i>   {/*onClick={() => setShowtab("part2")} */}
                     </div>
                     <div className="" data-aos="slide-left">  {/*{`${'hid'} ${myElementIsVisible? 'show': 'hid'}`} ref={myRef}*/}
                         <div>
@@ -77,7 +77,7 @@ const Testimonials = () => {
                     </div>
                     {/* {showtab === "part1" && <Testimonials1 title="1"/>}
                 {showtab === "part2" &&  <Testimonials2 title="2"/>} */}
-                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div id="carouselExampleAutoplaying" class="carousel slide"  data-bs-ride="carousel"> {/*data-bs-touch="false" */}
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <Testimonials1 />

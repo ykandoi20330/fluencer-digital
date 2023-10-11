@@ -2434,6 +2434,11 @@ button:focus:not(:focus-visible) {
   .Privacyheading {
     font-size: 4rem;
   }
+
+  /*MiddleNav*/
+  .navline{
+    display: none;
+   }
 }
 
 @media screen and (max-width:500px) {
@@ -3028,9 +3033,12 @@ button:focus:not(:focus-visible) {
 
   /*MiddleNav*/
   .navline{
-    position: fixed;
-    top: 15px !important;
-    z-index: 5;
+   display: none;
+  }
+
+  .sideNav{
+    display: contents;
+    position: relative;
   }
 
   .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
