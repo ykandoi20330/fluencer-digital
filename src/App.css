@@ -2746,7 +2746,7 @@ button:focus:not(:focus-visible) {
 
   .Showbtn:focus:not(:focus-visible) {
     outline: 0;
-    width: 7.5rem !important;
+    width: 8rem !important;
     transition: all 1s ease;
   }
 
@@ -2756,7 +2756,7 @@ button:focus:not(:focus-visible) {
 
   .Showbtn1:focus:not(:focus-visible) {
     outline: 0;
-    width: 7.5rem !important;
+    width: 8rem !important;
     transition: all 1s ease;
   }
 
