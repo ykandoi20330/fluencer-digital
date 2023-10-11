@@ -2297,9 +2297,22 @@ button:focus:not(:focus-visible) {
   .Showbtn{
     width: 15vw !important;
   } 
+
+  .Showbtn:focus:not(:focus-visible) {
+    outline: 0;
+    width: 8rem !important;
+    transition: all 1s ease;
+  }
+
   .Showbtn1{
     width: 15vw !important;
   } 
+
+  .Showbtn1:focus:not(:focus-visible) {
+    outline: 0;
+    width: 8rem !important;
+    transition: all 1s ease;
+  }
 
   /*Us Section*/
 
@@ -2729,9 +2742,22 @@ button:focus:not(:focus-visible) {
 
   .Showbtn{
     width: 23vw !important;
-  } 
+  }
+
+  .Showbtn:focus:not(:focus-visible) {
+    outline: 0;
+    width: 7.5rem !important;
+    transition: all 1s ease;
+  }
+
   .Showbtn1{
     width: 23vw !important;
+  }
+
+  .Showbtn1:focus:not(:focus-visible) {
+    outline: 0;
+    width: 7.5rem !important;
+    transition: all 1s ease;
   }
 
   /*Us Section*/
@@ -3037,8 +3063,7 @@ button:focus:not(:focus-visible) {
   }
 
   .sideNav{
-    display: contents;
-    position: relative;
+    visibility: visible !important;
   }
 
   .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {

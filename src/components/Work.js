@@ -83,6 +83,7 @@ const Work = () => {
             modules={[Navigation, A11y]}
             // spaceBetween={50}
             // slidesPerView={7}
+            loop={true}
             breakpoints={{
               // when window width is >= 660px
               0: {
