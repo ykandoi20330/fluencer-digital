@@ -1268,8 +1268,12 @@ button:focus:not(:focus-visible) {
   }
 
   .hero {
-    height: 120dvh !important;
+    height: 122dvh !important;
   }
+
+  .contain .overlay {
+    height: 122dvh;
+}
 
   /* Navbar closing tag*/
   .offcanvas-header .btn-close {
