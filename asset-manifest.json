@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fluencer-digital/static/css/main.6711bb41.css",
+    "main.css": "/fluencer-digital/static/css/main.56bcf6c3.css",
     "main.js": "/fluencer-digital/static/js/main.381e6bca.js",
     "static/js/787.a9136a80.chunk.js": "/fluencer-digital/static/js/787.a9136a80.chunk.js",
     "static/media/Software Development.jpg": "/fluencer-digital/static/media/Software Development.0ac841e41e3c641f022a.jpg",
@@ -41,12 +41,12 @@
     "static/media/REACT JS.png": "/fluencer-digital/static/media/REACT JS.4d34baf2c0902e36dbdd.png",
     "static/media/image (4).png": "/fluencer-digital/static/media/image (4).cdf4aef9f5ecc2dc9643.png",
     "index.html": "/fluencer-digital/index.html",
-    "main.6711bb41.css.map": "/fluencer-digital/static/css/main.6711bb41.css.map",
+    "main.56bcf6c3.css.map": "/fluencer-digital/static/css/main.56bcf6c3.css.map",
     "main.381e6bca.js.map": "/fluencer-digital/static/js/main.381e6bca.js.map",
     "787.a9136a80.chunk.js.map": "/fluencer-digital/static/js/787.a9136a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6711bb41.css",
+    "static/css/main.56bcf6c3.css",
     "static/js/main.381e6bca.js"
   ]
 }
