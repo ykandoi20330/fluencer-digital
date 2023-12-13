@@ -83,9 +83,6 @@ const Testimonials = () => {
                                 <Testimonials1 />
                             </div>
                             <div class="carousel-item">
-                                <Testimonials2 />
-                            </div>
-                            <div class="carousel-item">
                                 <Testimonials3/>
                             </div>
                             <div class="carousel-item">
