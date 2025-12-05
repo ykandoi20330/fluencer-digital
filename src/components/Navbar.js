@@ -58,6 +58,7 @@ const Navbar = () => {
                                         <li><Link class="dropdown-item" to="/Services2">Custom Software Development</Link></li>
                                         <li><Link class="dropdown-item" to="/Services3">Mobile App Development</Link></li>
                                         <li><Link class="dropdown-item" to="/Services4">Artificial Intelligence</Link></li>
+                                        <li><Link class="dropdown-item" to="/Services5">Blockchain Services</Link></li>
                                     </ul>
                                 </li>
                             </ul>
