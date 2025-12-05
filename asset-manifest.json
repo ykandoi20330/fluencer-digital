@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fluencer-digital/static/css/main.56bcf6c3.css",
-    "main.js": "/fluencer-digital/static/js/main.f179c322.js",
+    "main.js": "/fluencer-digital/static/js/main.902e3ac0.js",
     "static/js/787.a9136a80.chunk.js": "/fluencer-digital/static/js/787.a9136a80.chunk.js",
     "static/media/Software Development.jpg": "/fluencer-digital/static/media/Software Development.0ac841e41e3c641f022a.jpg",
     "static/media/BGVideo.mp4": "/fluencer-digital/static/media/BGVideo.a45af1f474d63cacca63.mp4",
@@ -9,11 +9,18 @@
     "static/media/Contact Us.jpg": "/fluencer-digital/static/media/Contact Us.377c8baff64968c87d55.jpg",
     "static/media/software-img.jpg": "/fluencer-digital/static/media/software-img.7e554cd8779269681e55.jpg",
     "static/media/Artificial Intelligence.jpg": "/fluencer-digital/static/media/Artificial Intelligence.1e4ed9c3347b457c16ad.jpg",
+    "static/media/blockchain-bg.png": "/fluencer-digital/static/media/blockchain-bg.f53eddd3cb196542e096.png",
     "static/media/JIT-min.png": "/fluencer-digital/static/media/JIT-min.8e5d076dc1d636ffaa7e.png",
     "static/media/Ababeel1-min.png": "/fluencer-digital/static/media/Ababeel1-min.416c32c9b6bf62678938.png",
+    "static/media/defi.png": "/fluencer-digital/static/media/defi.dca4894335cceb5aa561.png",
     "static/media/MaskGroup.png": "/fluencer-digital/static/media/MaskGroup.e19401a7a276ed24eec7.png",
+    "static/media/web3.png": "/fluencer-digital/static/media/web3.e5e8cd3572e9f4c60412.png",
+    "static/media/smart-contract.png": "/fluencer-digital/static/media/smart-contract.77bf26122d1e40a186b1.png",
+    "static/media/blockchain.png": "/fluencer-digital/static/media/blockchain.a7dfdcebae16afe8a05a.png",
+    "static/media/metaverse.png": "/fluencer-digital/static/media/metaverse.c00d3434b34e84802b52.png",
     "static/media/Mobile.jpg": "/fluencer-digital/static/media/Mobile.58cb5b13b1fe6c2a4f94.jpg",
     "static/media/web-development.jpg": "/fluencer-digital/static/media/web-development.cbee62aa89edcfdf25c3.jpg",
+    "static/media/nft.png": "/fluencer-digital/static/media/nft.6145db5fc1e7ad169715.png",
     "static/media/Mobile-App.png": "/fluencer-digital/static/media/Mobile-App.765e3b429d3c0024f812.png",
     "static/media/AbabeelFounder-modified.png": "/fluencer-digital/static/media/AbabeelFounder-modified.6a8591f0909c87ac664a.png",
     "static/media/AI.jpg": "/fluencer-digital/static/media/AI.f3329870622e6039727b.jpg",
@@ -42,11 +49,11 @@
     "static/media/image (4).png": "/fluencer-digital/static/media/image (4).cdf4aef9f5ecc2dc9643.png",
     "index.html": "/fluencer-digital/index.html",
     "main.56bcf6c3.css.map": "/fluencer-digital/static/css/main.56bcf6c3.css.map",
-    "main.f179c322.js.map": "/fluencer-digital/static/js/main.f179c322.js.map",
+    "main.902e3ac0.js.map": "/fluencer-digital/static/js/main.902e3ac0.js.map",
     "787.a9136a80.chunk.js.map": "/fluencer-digital/static/js/787.a9136a80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56bcf6c3.css",
-    "static/js/main.f179c322.js"
+    "static/js/main.902e3ac0.js"
   ]
 }
