@@ -19,6 +19,7 @@ import Navbar from './components/Navbar';
 import OurServicesPart from './components/OurServicesPart';
 import OurServicesThree from './components/OurServicesThree';
 import OurServicesFour from './components/OurServicesFour';
+import OurServicesFive from './components/OurServicesFive';
 import Privacy from './components/Privacy';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
       < HashRouter >
-      <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
@@ -68,7 +69,10 @@ function App() {
           <Route path="/Services4" element={<OurServicesFour />} />
         </Routes>
         <Routes>
-          <Route path="/privacy" element={<Privacy/>} />
+          <Route path="/Services5" element={<OurServicesFive />} />
+        </Routes>
+        <Routes>
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
         <Footer />
       </HashRouter>
