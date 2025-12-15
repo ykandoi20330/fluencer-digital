@@ -6,7 +6,7 @@ import web3 from './Our Services/Website Development/FRONT-END.png'
 import web4 from './Our Services/Website Development/PWA.png'
 import web5 from './Our Services/Website Development/SAAS.png'
 // import web6 from './Our Services/Website Development/Website Development.jpg'
-import web6 from './Our Services/Website Development/web-development.jpg'
+import web6 from './Our Services/Website Development/WEBSITE_DEV.png'
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -22,6 +22,7 @@ const OurServices = () => {
 
     return (
         <>
+            <div className="services-section-wrapper">
                 <div>
                     <div className="Back-img-Service">
                         <div className='img-back'>
@@ -88,6 +89,7 @@ const OurServices = () => {
                         </div>
                     </div>
                 </div>
+            </div>
         </>
     )
 }

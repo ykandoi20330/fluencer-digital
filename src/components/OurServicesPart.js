@@ -5,7 +5,7 @@ import website2 from './Our Services/Website Development/E-COM.png'
 import website3 from './Our Services/Website Development/FRONT-END.png'
 import website4 from './Our Services/Website Development/PWA.png'
 import website5 from './Our Services/Website Development/SAAS.png'
-import software from './Our Services/Software Development/software-img.jpg'
+import software from './Our Services/Software Development/SOFTWARE_DEV.png'
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'

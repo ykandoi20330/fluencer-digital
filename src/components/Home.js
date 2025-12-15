@@ -27,9 +27,9 @@ const Home = () => {
                     <h1>
                         <TypeAnimation className='typeAnimation'
                             sequence={[
-                                'WEBSITE DEVELOPMENT', // Types 'One'
+                                'SOFTWARE DEVELOPMENT', // Types 'One'
                                 1000, // Waits 1s
-                                'SOFTWARE DEVELOPMENT', // Deletes 'One' and types 'Two'
+                                'ARTIFICIAL INTELLIGENCE', // Deletes 'One' and types 'Two'
                                 2000, // Waits 2s
                             ]}
                             wrapper="span"

@@ -1,40 +1,36 @@
-import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import MainContact from './components/MainContact';
-import Footer from './components/Footer';
-import Home from "./components/Home"
-import OurWorks from './components/OurWorks';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import Us from './components/Us';
-import Work from './components/Work';
-import {
-  HashRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import OurServices from './components/OurServices';
-import Navbar from './components/Navbar';
-import OurServicesPart from './components/OurServicesPart';
-import OurServicesThree from './components/OurServicesThree';
-import OurServicesFour from './components/OurServicesFour';
-import OurServicesFive from './components/OurServicesFive';
-import Privacy from './components/Privacy';
-import ScrollToTop from './components/ScrollToTop';
+import "./App.css";
+import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
+import MainContact from "./components/MainContact";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import OurWorks from "./components/OurWorks";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
+import Us from "./components/Us";
+import Work from "./components/Work";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import OurServices from "./components/OurServices";
+import Navbar from "./components/Navbar";
+import OurServicesPart from "./components/OurServicesPart";
+import OurServicesThree from "./components/OurServicesThree";
+import OurServicesFour from "./components/OurServicesFour";
+import OurServicesFive from "./components/OurServicesFive";
+import Privacy from "./components/Privacy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
-      < HashRouter >
+      <HashRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<About />} />
-        </Routes>
+        </Routes> */}
         <Routes>
           <Route path="/" element={<Services />} />
         </Routes>
@@ -52,6 +48,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/mainContact" element={<MainContact />} />
+        </Routes>
+        <Routes>
+          <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
         <Routes>
           <Route path="/ourWorks" element={<OurWorks />} />

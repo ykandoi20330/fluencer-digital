@@ -5,7 +5,7 @@ import web2 from './Our Services/Website Development/E-COM.png'
 import web3 from './Our Services/Website Development/FRONT-END.png'
 import web4 from './Our Services/Website Development/PWA.png'
 import web5 from './Our Services/Website Development/SAAS.png'
-import ai from './Our Services/Artificial Intelligence/AI.jpg'
+import ai from './Our Services/Artificial Intelligence/AI-bg.jpg'
 // import { useInView } from 'react-intersection-observer';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
